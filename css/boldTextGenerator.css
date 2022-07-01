@@ -1,0 +1,68 @@
+.output{
+	height: 205px;
+	width: 85%;
+	background-color: whitesmoke;
+	padding: 10px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	overflow: scroll;
+}
+
+#exampleFormControlInput1{
+	width: 85%;
+}
+.formWrapper{
+	margin-left: 15%;
+}
+.heading{
+	margin-top: 5%;
+	margin-left: 38%;
+	margin-bottom: 5%;
+}
+
+@media (max-width: 768px) {
+	.output{
+		height: 200px;
+		width: 90%;
+		background-color: whitesmoke;
+		padding: 10px;
+		border: 1px solid grey;
+		border-radius: 5px;
+	}
+	.formWrapper{
+		margin-left: 10%;
+	}
+	#exampleFormControlInput1{
+		width: 90%;
+	}
+	.heading{
+		margin-top: 8%;
+		margin-left: 20%;
+		margin-bottom: 5%;
+	}
+}
+
+#copyBtn {
+  display: block;
+  width: 26%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: #3a86ff;
+  color: white;
+  padding: 9px 9px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 37%;
+  margin-top: 2%;
+}
+
+#copyBtn:hover {
+  background-color: #2874A6;
+  color: ghostwhite;
+}
+
+#copySuccessMsg{
+	display:none;	
+	text-align: center;
+}

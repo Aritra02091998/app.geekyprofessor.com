@@ -1,0 +1,111 @@
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	padding:2% 2%;
+	margin: 0% 0;
+}
+.textareaWrapper{
+	width: 850px;
+	position: relative;
+	margin:0 40px;
+}
+.advancedFeatures{
+	background-color: #D6DBDF;
+	color: #273746;
+	border: 1px solid grey;
+	border-radius: 5px;
+	width: 300px;
+	height: 400px;
+	padding: 10px;
+}
+
+.shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}
+.output{
+	height: 90px;
+	width: 60%;
+	position: relative;
+	left: 8%;
+	background-color: whitesmoke;
+	padding: 10px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+p{
+	display: inline;
+}
+.wordLabel, .characterLabel{
+	font-weight: bolder;
+	font-size: 31px;
+	color: #3a86ff;
+}
+.characterLabel{
+	margin-left: 25%;
+}
+#wordCount,#charCount,#advancedFeaturesLabel{
+	font-weight: bolder;
+	font-size: 28px;
+	color: #808B96;
+}
+
+.button {
+  	display: block;
+  	width: 28%;
+  	border: 1px solid grey;
+  	border-radius: 5px;
+  	background-color: #3a86ff;
+  	color: white;
+  	padding: 5px 7px;
+  	font-size: 14px;
+  	cursor: pointer;
+  	text-align: center;
+  	margin-left: 37%;
+  	margin-top: 2%;
+}
+
+.button:hover {
+  	background-color: #2874A6;
+  	color: ghostwhite;
+}
+#writeKeywords,#writeStopWords{
+	color: #99A3A4;
+	font-size: 12px;
+}
+.heading{
+	width: 100%;
+	text-align: center;
+	margin-top: 2%;
+}
+
+@media only screen and  (max-width: 1100px) {
+	.output{
+		height: 90px;
+		width: 85%;
+		background-color: whitesmoke;
+		padding: 3%;
+		border: 1px solid grey;
+		border-radius: 5px;
+	}
+	.wordLabel, .characterLabel{
+		font-size: 20px;
+	}
+	.characterLabel{
+		margin-left: 17%;
+	}
+	.textareaWrapper{
+		margin:2%;
+	}
+	.advancedFeatures{
+		width: 80%;
+		margin-left:40px;
+	}
+	.flex-container{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0;
+	}
+}

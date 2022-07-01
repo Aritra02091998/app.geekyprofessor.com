@@ -1,0 +1,40 @@
+log started  Jul 1,2022 - 1 AM
+
+current feature:
+1.jpeg compression
+2.bold text gnrtr
+3.wordcounter
+4.png to jpeg convert
+
+
+log: Jul 1,2022 - 4 PM
+
+imagepng() = method to save a pngpicture was not working and was gnrting error.
+bcz out of three param of imagepng(sourceFile, Save Destination , quality )
+the quality can have the max value 9 for png images.
+It was fixed now and currently quality set to 6.
+
+Larger img files was not getting compressed and showing compression failed was causing
+bcz in php.ini configuration file of apache2 server localhost the 
+"upload_max_size" parameter was set to 2MB only.
+
+this parameter now changed to set 20MB value.
+Larger files are getting compressed now.
+
+the same needs to be done when uploaded on webhost.
+
+the error was:
+
+Notice: Undefined index: image in /var/www/html/image2/handlers/handleConvertJPGPNGtoWebP.php on line 46
+
+Notice: Trying to access array offset on value of type null in /var/www/html/image2/handlers/handleConvertJPGPNGtoWebP.php on line 46
+
+But it has nothing to do with any index or arrays, simply the file is not uploading.So, while accessing the $_FILES['image']['name'] php found null value so gnrtd the error.
+
+ref: 
+
+https://stackoverflow.com/questions/19269047/php-cannot-save-compressed-image-of-14mb-plus-file-after-uploading
+
+https://stackoverflow.com/questions/58909836/how-to-edit-the-php-ini-file-in-ubuntu-19-04-disco-dingo
+
+
