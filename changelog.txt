@@ -38,3 +38,17 @@ https://stackoverflow.com/questions/19269047/php-cannot-save-compressed-image-of
 https://stackoverflow.com/questions/58909836/how-to-edit-the-php-ini-file-in-ubuntu-19-04-disco-dingo
 
 
+log: Jul 3,2022 - 10:30 PM
+Dependency: Imagick library php
+
+PDF to JPG converted feature finished.
+
+This feature takes a pdf files counts the number of pages and generate jpg file for each pages then combines them into zip file and sends to the user (downloads automatically when progress bar reaches 100).
+
+Implemented through php Header.
+
+whenevr convertPDFtoJPG file submits the form of pdf file to handleConvertPDFtoJPG.php file, the script does all the conversion under the hood and sends it to the header and cleans up the converted files by itself.
+
+So when the handleConvertPDFtoJPG file tries to load the converted zip file downloaded automatically(implemented through a hidden btn which is clicked by JS).
+
+

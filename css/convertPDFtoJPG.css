@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: whitesmoke;
+}
+.drag-area{
+  border: 2px dashed #3a86ff;
+  height: 245px;
+  width: 710px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1% auto;
+  overflow: hidden;
+}
+.drag-area.active{
+  border: 2px solid #fff;
+}
+.drag-area .icon{
+  font-size: 65px;
+  color: #3a86ff;
+}
+.drag-area header{
+  font-size: 18px;
+  font-weight: 500;
+  color: #3a86ff;
+}
+.drag-area span{
+  font-size: 20px;
+  font-weight: 500;
+  color: #3a86ff;
+  margin: -2px 0 1px 0;
+}
+.drag-area button{
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #3a86ff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/*compress btn styles and drag area design for mobile device*/
+
+@media (max-width: 768px) {
+  .drag-area{
+    border: 4px dashed #3a86ff;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2% auto;
+  }
+  .drag-area header{
+    font-size: 20px;
+    font-weight: 500;
+    color: #3a86ff;
+  }
+}
+
+.btn {
+  display: block;
+  width: 40%;
+  border: none;
+  background-color: #3a86ff;
+  color: white;
+  padding: 12px 26px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 30%;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background-color: #2874A6;
+  color: ghostwhite;
+}
+
+
+
+.heading{
+  widh: 100%;
+  text-align: center;
+  color:#3a86ff ;
+  margin: 3% auto;
+
+}
+
+#wrapper{
+   margin: 10% auto;
+   text-align: center;
+}
+
+#head{
+  color: #85929E;
+  font-size: 25px;
+}
+
+#myProgress {
+  width: 50%;
+  background-color: #ddd;
+  border-radius:20px;
+  margin: auto;
+}
+
+#myBar {
+  width: 10%;
+  height: 30px;
+  background-color: #3a86ff;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  border-radius:20px;
+}
+
+#resultImage{
+  width: 100%;
+  text-align: center;
+  color:  #85929E;
+  font-style: italic;
+  font-weight: 400;
+}
+

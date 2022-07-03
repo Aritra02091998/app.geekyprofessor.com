@@ -1,0 +1,78 @@
+#wrapper{
+   margin: 10% auto;
+   text-align: center;
+}
+
+#myProgress {
+  width: 80%;
+  background-color: #ddd;
+  border-radius:20px;
+  margin: auto;
+}
+
+#myBar {
+  width: 10%;
+  height: 30px;
+  background-color: #3a86ff;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  border-radius:20px;
+}
+
+
+#download {
+  display: block;
+  width: 30%;
+  border-radius: 4px;
+  background-color: #3a86ff;
+  color: white;
+  padding: 12px 26px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  margin: 2% auto;
+}
+
+#download:hover {
+  background-color: #2874A6;
+  color: ghostwhite;
+}
+
+#cmprsdImg{
+  margin: 0 37%;
+}
+
+#silentMsg{
+  color: #AEB6BF;
+  text-align: center;
+}
+
+#statusFlag{
+  display: none;
+}
+#errorImage{
+  width: 100%;
+  text-align: center;
+}
+#resultTable{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+@media(max-width: 768px){
+  #download {
+    display: block;
+    width: 40%;
+    border-radius: 5px;
+    background-color: #3a86ff;
+    color: white;
+    padding: 8px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin: 2% auto;
+  }
+}
+
