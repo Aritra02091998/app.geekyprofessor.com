@@ -1,6 +1,6 @@
 <?php include 'headerHandlersCopy.php';
 session_start();
-//echo(session_id());
+echo(session_id());
 ?>
 
 <!DOCTYPE html>
@@ -10,6 +10,7 @@ session_start();
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/handleConvertJPGtoPDF.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+        <script src="../js/handleConvertJPGtoPDF.js"></script>
 
 
         <title>Compressing Image</title>
@@ -48,7 +49,7 @@ session_start();
                 $images = array();
                 $totalImages =count($_FILES['image']['tmp_name']);
                 $sessionID = session_id();
-                $saveAddress = "../upload/{$sessionID}.combinedPDF.pdf";
+                $saveAddress = "../upload/pdfUploads/{$sessionID}.combinedPDF.pdf";
                 //echo($totalImages."<br>".$sessionID);
 
 
@@ -71,7 +72,19 @@ session_start();
 
                 }
                 $pdfFileSize = (filesize($saveAddress)/1000);
-                $tmpDownloadFile = file_get_contents($saveAddress);       
+                $tmpDownloadFile = file_get_contents($saveAddress);   
+
+                # delete files of yesterday 
+                
+                $filesToBeDeleted = glob("../upload/pdfUploads/*"); 
+                foreach($filesToBeDeleted as $file){ 
+                    if( (is_file($file)) && ( (time()-filectime($file))>=86400 ) ) {
+                    unlink($file); // delete file
+                        echo ("deleted");
+                  }
+                }
+    
+                # end of pdf file cleaning code 
             }
         ?>
 
@@ -167,7 +180,8 @@ session_start();
             </button>
         </a>
 
-        <script src="../js/handleConvertJPGtoPDF.js"></script>
+        
+
 
     </body>
 </html>
@@ -181,5 +195,7 @@ session_start();
 https://stackoverflow.com/questions/25680490/combine-jpgs-into-one-pdf-with-php#:~:text=In%20PHP%20you%20can%20use,%2D%3EwriteImages('combined.
 
 https://stackoverflow.com/questions/2704314/multiple-file-upload-in-php
+
+https://stackoverflow.com/questions/1921466/auto-delete-all-files-after-x-time#:~:text=You%20can%20use%20PHP%20core,and%20delete%20its%20file%2Ffiles.&text=It%20is%20only%20skeleton%20of%20the%20function.
 
 -->

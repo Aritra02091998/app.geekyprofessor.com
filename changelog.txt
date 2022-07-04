@@ -51,4 +51,8 @@ whenevr convertPDFtoJPG file submits the form of pdf file to handleConvertPDFtoJ
 
 So when the handleConvertPDFtoJPG file tries to load the converted zip file downloaded automatically(implemented through a hidden btn which is clicked by JS).
 
+Autmatic file deletion implemented.
+
+
+
 

@@ -1,6 +1,6 @@
 <?php include 'header.php';
 session_start();
-//echo(session_id());
+echo(session_id());
 ?>
 
 <!DOCTYPE  html>
