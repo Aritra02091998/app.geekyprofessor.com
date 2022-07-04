@@ -8,10 +8,8 @@ echo(session_id());
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../css/handleConvertJPGtoPDF.css">
+        <link rel="stylesheet" href="../css/handleMergePDF.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-        <script src="../js/handleConvertJPGtoPDF.js"></script>
-
 
         <title>Compressing Image</title>
     </head>
@@ -49,12 +47,14 @@ echo(session_id());
                 $images = array();
                 $totalImages =count($_FILES['image']['tmp_name']);
                 $sessionID = session_id();
-                $saveAddress = "../upload/pdfUploads/{$sessionID}combinedPDF-geekyprofessor-App.pdf";
+                $saveAddress = "../upload/pdfUploads/{$sessionID}merged-PDF-geekyprofessor-apps.pdf";
+                $sumOfUploadedPDFs = 0;
                 //echo($totalImages."<br>".$sessionID);
 
 
                 for( $i=0 ; $i < $totalImages ; $i++ ) {
                     $tmpFilePath = $_FILES['image']['tmp_name'][$i];
+                    $sumOfUploadedPDFs += filesize($_FILES['image']['tmp_name'][$i]);
                     array_push($images, $tmpFilePath);
                 }
 
@@ -63,16 +63,16 @@ echo(session_id());
                 try{
                     $pdf->writeImages($saveAddress, true); 
                     $status = 1;
-                    $statusMsg = "Images successfully converted into PDF Doc.";
+                    $statusMsg = "PDFs successfully merged into single PDF Doc.";
                 }
                 catch(Exception $e) {
                     echo 'Message: ' .$e->getMessage();
                     $status = 0;
-                    $statusMsg = "Error while preparing PDF.";
+                    $statusMsg = "Error while merging PDF.";
 
                 }
                 $pdfFileSize = (filesize($saveAddress)/1000);
-                $tmpDownloadFile = file_get_contents($saveAddress);   
+                $sumOfUploadedPDFs = $sumOfUploadedPDFs/1000;
 
                 # delete files of yesterday 
                 
@@ -117,13 +117,13 @@ echo(session_id());
                     <p>
                       * Watch Me Walking <br> 
                       Your download will start automatically !!<br>
-                      All your Images have been merged to a single PDF Doc.
+                      All your PDFs have been merged to a single PDF Doc.
                     </p>
                 </div>
 
                 <a href="<?php echo $saveAddress; ?>" download>
                     <button id="download">
-                        Download Generated PDF
+                        Download Merged PDF
                     </button>
                 </a> 
             <?php } ?>
@@ -133,14 +133,14 @@ echo(session_id());
             <table id="resultTable" class="table table-striped table-bordered">
                 <thead>
                   <tr>
-                    <th>Image Properties</th>
-                    <th>Image Values</th>
+                    <th>PDF Properties</th>
+                    <th>PDF Values</th>
                   </tr>
                 </thead>
 
                 <tbody>
                     <tr>
-                        <td>Images Merged in PDF</td>
+                        <td>Documents Merged in PDF</td>
                         <td>
                             <?php 
                                 for( $i=0 ; $i < $totalImages ; $i++ )
@@ -149,7 +149,7 @@ echo(session_id());
                         </td>
                     </tr>
                     <tr>
-                        <td>Uploaded Image Type</td>
+                        <td>Uploaded Doc Type</td>
                         <td><?php echo (strtoupper($_FILES["image"]["type"][0])) ?></td>
                     </tr>
                     <tr>
@@ -157,7 +157,11 @@ echo(session_id());
                         <td><?php echo (strtoupper(pathinfo($saveAddress, PATHINFO_EXTENSION))) ?></td>
                     </tr>
                     <tr>
-                        <td>Converted Doc Size</td>
+                        <td>Uploaded PDF total Size</td>
+                        <td><?php echo ($sumOfUploadedPDFs." KB" ) ?></td>
+                    </tr>
+                    <tr>
+                        <td>Converted PDF Size</td>
                         <td><?php echo ($pdfFileSize." KB" ) ?></td>
                     </tr>
                 </tbody>
@@ -167,8 +171,8 @@ echo(session_id());
             <!--table end -->
         </div>
 
-        <a href="../convertJPGtoPDF.php">
-            <button id="download">Convert Another Set of Images</button>
+        <a href="../mergePDF.php">
+            <button id="download">Merge more PDFs</button>
         </a>
 
 
@@ -180,8 +184,7 @@ echo(session_id());
             </button>
         </a>
 
-        
-
+        <script src="../js/handleMergePDF.js"></script>
 
     </body>
 </html>

@@ -121,7 +121,7 @@ session_start();
                 }
 
                 // send the file to the browser as a download
-                header('Content-disposition: attachment; filename="my file.zip"');
+                header('Content-disposition: attachment; filename="App-geekyprofessor-Images.zip"');
                 header('Content-type: application/zip');
                 readfile($tmp_file);
                 unlink($tmp_file);

@@ -7,6 +7,7 @@ current feature:
 4.png to jpeg convert
 
 
+
 log: Jul 1,2022 - 4 PM
 
 imagepng() = method to save a pngpicture was not working and was gnrting error.
@@ -38,6 +39,7 @@ https://stackoverflow.com/questions/19269047/php-cannot-save-compressed-image-of
 https://stackoverflow.com/questions/58909836/how-to-edit-the-php-ini-file-in-ubuntu-19-04-disco-dingo
 
 
+
 log: Jul 3,2022 - 10:30 PM
 Dependency: Imagick library php
 
@@ -53,6 +55,27 @@ So when the handleConvertPDFtoJPG file tries to load the converted zip file down
 
 Autmatic file deletion implemented.
 
+
+
+log: Jul 4,2022 - 11:37 PM
+
+JPG to PDF conversion developed.
+
+This tool takes multiple JPG images and combines them into one PDF doc then delivers it to the user for download.
+
+* New Feature: This script deletes all the files of yesterday automatically on every run (untested);
+
+
+
+log: Jul 4,2022 - 11:56 PM
+
+Merge PDF Feature added
+
+This tool takes up multiplepdf files from user and then merges them into a single PDF doc file.
+
+The handle file and front forom file was exactly copied from JPG to PDF conversion tool that is convertJPGtoPDF.php and handleConvertJPGtoPDF.php files.
+
+Beacuse the php script can handle both JPG to PDF conversion and merge all pdf into one.
 
 
 
