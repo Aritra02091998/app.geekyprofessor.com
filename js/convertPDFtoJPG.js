@@ -90,14 +90,18 @@ window.onload = function() {
   document.getElementById("redirect").style.display = "none";
 };
 
+
 // code to disable back btn.
+
 function preventBack() {
       window.history.forward(); 
 } 
 setTimeout("preventBack()", 0);
 window.onunload = function () { null };
 
+
 // code to validate if the form is empty.
+
 function validateForm() {
   let x = document.forms["pdfUpload"]["pdfDoc"].value;
   if (x == "") {

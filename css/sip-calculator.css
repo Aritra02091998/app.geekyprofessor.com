@@ -1,0 +1,65 @@
+.container #section1{
+	background-color: #F4F6F6;
+	padding: 5%;
+}
+
+.container #section2{
+	background-color: #F4F6F6;
+}
+.container #section3{
+}
+#SIPheading{
+  width: 100%;
+  text-align: center;
+  color: #3a86ff;
+  font-weight: bolder;
+}
+
+input[type=text] {
+  width: 20%;
+  padding: 1% 2%;
+  float: right;
+  box-sizing: border-box;
+  border: 1px solid #EAEDED;
+  color: #3a86ff;
+  font-weight: bolder;
+  background-color: #D6EAF8;
+  outline: none;
+  margin-bottom: 2%;
+}
+
+input[type=text]:focus {
+  border: 1.5px solid #3a86ff;
+}
+
+#rangeSlider{
+	position: relative;
+}
+
+span{
+  margin-left: 30%;
+}
+
+#child1{
+  display: inline-block;
+}
+
+#child2{
+  display: inline-block;
+  margin-left: 30%;
+  font-weight: 600;
+  color: #3a86ff;
+}
+
+#myChart1{
+  margin-top:15%;
+}
+#section3{
+  padding: 0 15%;
+}
+@media (max-width: 768px) {
+  #section3{
+    padding: 0 2%;
+  }
+}
+

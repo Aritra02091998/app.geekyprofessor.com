@@ -78,10 +78,11 @@ echo(session_id());
                 
                 $filesToBeDeleted = glob("../upload/pdfUploads/*"); 
                 foreach($filesToBeDeleted as $file){ 
+                    //echo ( time()-filectime($file)."<br>" );
                     if( (is_file($file)) && ( (time()-filectime($file))>=86400 ) ) {
-                    unlink($file); // delete file
-                        echo ("deleted");
-                  }
+                        unlink($file); // delete file
+                        //echo ("deleted");
+                    }
                 }
     
                 # end of pdf file cleaning code 
