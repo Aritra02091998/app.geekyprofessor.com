@@ -1,9 +1,11 @@
-var invstAmntGlobal = 2000;
+var invstAmntGlobal = 1000;
 var returnPercentageGlobal = 12;
 var timePeriodGlobal = 2;
 var lineGraphSIPValueArray = new Array();
 var lineGraphYearValueArray = new Array();
 var lineGraphTotInvstValueArray = new Array();
+var lineGraphEstReturnsArray = new Array();
+
 
 
 
@@ -61,10 +63,17 @@ function calculateFinalValue(){
   displayResult(finalValueOfSIP,totInvstInAYear,estReturns);
   drawDonutGraph(totInvstInAYear,estReturns);
 
-  // adding values to SIP value array.
+  // for SIP value curve
   lineGraphSIPValueArray.push(finalValueOfSIP);
+
+  // for x-axis labels
   lineGraphYearValueArray.push(timePeriodGlobal);
+
+  // for return invested amount curve at the end of each year.
   lineGraphTotInvstValueArray.push(timePeriodGlobalMonth*invstAmntGlobal);
+
+  // for estimated returns on SIP value.
+  lineGraphEstReturnsArray.push(estReturns);
 
 
   drawLineGraph();
@@ -76,7 +85,7 @@ function calculateFinalValue(){
 
 window.onload = function() {
 
-  invstAmntGlobal = 2000;
+  invstAmntGlobal = 1000;
   returnPercentageGlobal = 12;
   timePeriodGlobal = 2;
   calculateFinalValue(); 
@@ -117,7 +126,7 @@ function drawLineGraph(){
               labels: lineGraphYearValueArray,
               datasets: [{ 
                             data: lineGraphSIPValueArray,
-                            label: "Return on Investment With Year",
+                            label: "SIP Value after each Year",
                             borderColor: "#E74C3C",
                             fill: false
                         },
@@ -126,7 +135,14 @@ function drawLineGraph(){
                             label: "Invested Amount With Year",
                             borderColor: "#3498DB",
                             fill: false
-                        }]
+                        },
+                        { 
+                            data: lineGraphEstReturnsArray,
+                            label: "Est. Returns of SIP with Year",
+                            borderColor: "#008000",
+                            fill: false
+                        }
+                        ]
             },
 
       options: {

@@ -17,8 +17,8 @@
   <div class="container">
     <br>
     <h1 id="SIPheading">Online SIP Calculator</h1>
-    <p></p>      
-    <div class="row">
+    <br>     
+    <div id="main-content" class="row">
 
       <div id="section1" class="col-sm-6">
         <label for="customRange3" class="form-label">Investment Amount</label>
@@ -46,7 +46,7 @@
             </p>
 
             <p>
-              Total Value
+              Total Value of SIP
             </p>
           </div>
 
@@ -79,6 +79,11 @@
   <br><br>
   
   <div class="container">
+
+        <p class="notice">
+          * To undestand the compounding effect of SIPs after long term choose any Investment amount and Expected Return Percent above and increase the number of years gradually to see effect on the graph for your SIP values.
+        </p> 
+
     <div id="section3">
 
       <canvas id="myChart2" width="50px" height="25px"></canvas>   

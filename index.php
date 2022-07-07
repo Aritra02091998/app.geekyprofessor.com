@@ -9,7 +9,7 @@
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/geekyprofessor-apps.png" />
         <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -145,6 +145,28 @@
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-signpost-split-fill"></i></div>
                                     <h2 class="fs-4 fw-bold">Split PDF into Multiple PDFs</h2>
                                     <p class="mb-0">Split your single PDF Document file to multiple PDF files of each pages in 5 seconds.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <a href="sip-calculator.php">
+                                <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-calculator"></i></div>
+                                    <h2 class="fs-4 fw-bold">Online SIP Calculator Free</h2>
+                                    <p class="mb-0">Calculate SIP's return value after year for free with graph insights for free online.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <a href="loan-emi-calculator.php">
+                                <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-bank"></i></div>
+                                    <h2 class="fs-4 fw-bold">Online EMI Calculator Free</h2>
+                                    <p class="mb-0">Calculate EMI, Interest, Loan Reapyment after year for free with graph & Donut chart insights for free online.</p>
                                 </div>
                             </a>
                         </div>
