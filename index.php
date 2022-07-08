@@ -17,13 +17,24 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-lg-5">
-                <a class="navbar-brand" href="#!">Geekyprofessor Apps</a>
+                <a class="navbar-brand" href="index.php">Geekyprofessor Apps</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.php">About Us</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://geekyprofessor.com/contact-us/">Contact us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="disclaimer.php">Disclaimer</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -31,12 +42,12 @@
 
         
         <!-- Header-->
-        <header class="py-5">
-            <div class="container px-lg-5">
-                <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+        <header class="py-5" >
+            <div class="container px-lg-0" >
+                <div class="p-4 p-lg-3 bg-light rounded-3 text-center" style="background-image: url('assets/banner1.webp');">
                     <div class="m-4 m-lg-5">
-                        <h1 class="display-5 fw-bold">A warm welcome!</h1>
-                        <p class="fs-4">Bootstrap utility classes are used to create this jumbotron since the old component has been removed from the framework. Why create custom CSS when you can use utilities?</p>
+                        <h1 class="display-5 fw-bold text-white">A warm welcome!</h1>
+                        <p class="fs-4 text-white">Bootstrap utility classes are used to create this jumbotron since the old component has been removed from the framework. Why create custom CSS when you can use utilities?</p>
                         <a class="btn btn-primary btn-lg" href="#!">Call to action</a>
                     </div>
                 </div>
@@ -186,9 +197,64 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; app.geekyprofessor.com  2022-23</p></div>
+        <footer class="py-5 bg-dark" style="background-image: url('assets/bannerFooter.webp');">
+            
+            <div class="container">
+                <a class="text-white" href="about-us.php" 
+                style="text-decoration: none;margin-left: 5%;font-weight: bolder;">
+                    About Us
+                </a>
+
+                <a class="text-white" href="#" 
+                style="text-decoration: none;margin-left: 5%;">
+                    •
+                </a>
+
+                <a class="text-white" href="https://geekyprofessor.com/contact-us/" 
+                style="text-decoration: none;margin-left: 5%;font-weight: bolder;">
+                    Contact Us
+                </a>
+
+                <a class="text-white" href="#" 
+                style="text-decoration: none;margin-left: 5%;">
+                    •
+                </a>
+
+                <a class="text-white" href="privacy-policy.php" 
+                style="text-decoration: none;margin-left: 5%;font-weight: bolder;">
+                    Privacy Policy
+                </a>
+
+                <a class="text-white" href="#" 
+                style="text-decoration: none;margin-left: 5%;">
+                    •
+                </a>
+
+                <a class="text-white" href="disclaimer.php" 
+                style="text-decoration: none;margin-left: 5%;font-weight: bolder;">
+                    Disclaimer
+                </a>
+                
+                <a class="text-white" href="#" 
+                style="text-decoration: none;margin-left: 5%;">
+                    •
+                </a>
+
+                <a class="text-white" href="terms-and-conditions.php" 
+                style="text-decoration: none;margin-left: 2%;font-weight: bolder;">
+                    Terms & Conditions
+                </a>
+                
+                <br><br><br>
+
+                <p class="m-0 text-center text-white">Copyright &copy; app.geekyprofessor.com  2022-23
+                </p>
+                
+            </div>            
+
+            
         </footer>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
