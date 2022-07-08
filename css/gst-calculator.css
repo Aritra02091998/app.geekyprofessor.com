@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 #main-content{
   border: 1px solid #E5E7E9;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -70,18 +72,7 @@ span{
 }
 
 
-
-/*
-.form-range::-webkit-slider-thumb {
-  background: gray;
+#seoContent{
+  color: #616A6B;
+  font-family: 'PT Sans', sans-serif;
 }
-
-.form-range::-moz-range-thumb {
-  background: gray;
-}
-
-.form-range::-ms-thumb {
-  background: gray;
-}
-
-*/
