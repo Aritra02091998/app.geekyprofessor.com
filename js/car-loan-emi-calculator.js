@@ -226,7 +226,7 @@ function createMonthlyAmortizedSchedule() {
         cell4 = tableRow.insertCell(3);
         cell5 = tableRow.insertCell(4);
         
-        cell3.innerHTML="End of nth Year".replace("nth",currMonth/12);
+        cell3.innerHTML="  End of nth Year".replace("nth",currMonth/12);
         cell3.style.backgroundColor = "#AED6F1";
         cell3.style.fontFamily = "'PT Sans', sans-serif";
         cell3.style.fontWeight = "bolder";
@@ -372,7 +372,7 @@ function drawLineGraph(){
       options: {
           title: {
             display: true,
-            text: 'ROI & Amount Payable vs Years'
+            text: 'Interest, Principal Paid, Remaining Loan Amount vs Month'
           }
       }
   });

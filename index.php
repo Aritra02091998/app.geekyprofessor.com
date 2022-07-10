@@ -209,8 +209,8 @@
                             <a href="car-loan-emi-calculator.php">
                                 <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-truck"></i></div>
-                                    <h2 class="fs-4 fw-bold">Car Loan EMI calculator</h2>
-                                    <p class="mb-0">Calculate your Car Loan EMI in India with our online EMI Calculator for Car loans with Graph and Amortized Schedule.</p>
+                                    <h2 class="fs-4 fw-bold">Car Loan EMI calculator India</h2>
+                                    <p class="mb-0">Calculate your Car Loan EMI in India with our online Car loan EMI Calculator for Car loans with Graph and Monthly Amortized Schedule Insights.</p>
                                 </div>
                             </a>
                         </div>

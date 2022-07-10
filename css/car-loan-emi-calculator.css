@@ -75,3 +75,8 @@ span{
   color: #616A6B;
   font-family: 'PT Sans', sans-serif;
 }
+
+tr:nth-child(odd) {
+  background-color: #F2F3F4;
+}
+
