@@ -100,6 +100,10 @@ Privacy Policy generated.
 Terms & conditions generated
 
 
+log: Jul 10,2022 - 10 AM
+
+SEO completed for GST & EMI calculator
+loan EMI calculator is developed for USA by duplicating the loan-emi-calculator.php
 
 
 

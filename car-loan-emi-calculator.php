@@ -12,7 +12,7 @@
 
       <meta name="keywords" content="emi calculator home loan,emi calculator for home loans,emi calculator personal loan,emi calculator online,Online EMI calculator,emi calculator for personal loan sbi,emi calculator for home loan hdfc,emi calculator sbi home loan,Geekyprofessor optimisation,Geekyprofessor apps">
 
-      <link rel="stylesheet" href="css/loan-emi-calculator.css">
+      <link rel="stylesheet" href="css/car-loan-emi-calculator.css">
 
   </head>
 
@@ -21,18 +21,23 @@
 
   <div class="container">
     <br>
-    <h1 id="SIPheading">Online EMI calculator for Home loans & Personal Loans.</h1>
+    <h1 id="SIPheading">Car Loan EMI Calculator</h1>
+    
+    <p id="seoContent">
+      Whether you are employed or self-employed, purchasing your dream car is now virtually within your reach. Unlike a few decades ago, you don't need to be affluent or save a significant amount of money to get your first car. You can easily apply for a new Car Loan and start driving your dream car sooner.
+    </p>
+    
     <br>     
     <div id="main-content" class="row">
 
       <div id="section1" class="col-sm-6">
-        <label for="customRange3" class="form-label">Loan Amount</label>
+        <label for="customRange3" class="form-label">Car Loan Amount</label>
         <input type="text" id="principalTextBox" onfocusout="updateValueFromPrincipalTextBox()">
         <input type="range" class="form-range" min="90000" max="9000000" step="1000" id="principalSlider" value="100000" onchange="updatePrincipalValue(this.value);">
 
         <label for="customRange3" class="form-label">Rate of Interest ( p.a )</label>
         <input type="text" id="rateOfInterestTextBox" onfocusout="updateValueFromRateOfInterestTextBox()">
-        <input type="range" class="form-range" min="1" max="30" step="0.1" id="rateSlider" value="6.5" onchange="updateRateOfInterest(this.value);">
+        <input type="range" class="form-range" min="7" max="20" step="0.01" id="rateSlider" value="7" onchange="updateRateOfInterest(this.value);">
 
         <label for="customRange3" class="form-label">Loan Tenure</label>
         <input type="text" id="loanTenureTextBox" onfocusout="updateValueFromLoanTenureTextBox()">
@@ -98,9 +103,9 @@
   
   <div class="container">
 
-        <p class="notice">
-          * To undestand how the Interest in Rupees would increase your Net Amount to be paid for repayment, fix a Principal and Rate and then gradually increase the Loan Tenure and observe the Graph.
-        </p> 
+    <p class="notice">
+      * Graph To undestand how the Interest in Rupees decreasing and Principal paid till current month is increasing with each passing month.
+    </p> 
 
     <div id="section3">
 
@@ -115,6 +120,34 @@
       <br><br>
 
     </div>
+
+    <h2 id="seoContent" style="text-align: center;">Car Loan Monthly Amortized Schedule</h2>
+
+    <br>
+
+    <div id="amortizedSchedule" class="container">
+
+      <table id="amortizedTable" class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Month</th>
+            <th scope="col">Opening Balance</th>
+            <th scope="col">Interest Paid</th>
+            <th scope="col">Principal Paid</th>
+            <th scope="col">Remaining Loan Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+    
+        </tbody>
+      </table>
+      <br>
+      <hr>
+      <br>
+
+    </div>
+
+    
   </div>
 
   <div id="seoContent" class="container">
@@ -304,7 +337,7 @@
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-  <script src="js/loan-emi-calculator.js"></script>
+  <script src="js/car-loan-emi-calculator.js"></script>
 
   </body>
 

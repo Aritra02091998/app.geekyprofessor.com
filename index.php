@@ -177,7 +177,7 @@
                                 <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-bank"></i></div>
                                     <h2 class="fs-4 fw-bold">Online EMI Calculator Free</h2>
-                                    <p class="mb-0">Calculate EMI, Interest, Loan Reapyment after year for free with graph & Donut chart insights for free online.</p>
+                                    <p class="mb-0">Online EMI calculator for home loan and Personal Loans. Get 100% accurate report on monthy EMI amount and Net amount to be paid back for free.</p>
                                 </div>
                             </a>
                         </div>
@@ -187,8 +187,30 @@
                             <a href="gst-calculator.php">
                                 <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bbi bi-cash"></i></div>
-                                    <h2 class="fs-4 fw-bold">Online GST Calculator Free</h2>
-                                    <p class="mb-0">Calculate GST, GST Including & GST Excluding price for free with Donut Chart showing CGST and SGST percentage.</p>
+                                    <h2 class="fs-4 fw-bold">GST Calculator Online India</h2>
+                                    <p class="mb-0">Free GST Calculator Online India With CGST-SGST Distribution Charts. Calculate GST, GST Including & GST Excluding price for free.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <a href="home-loan-emi-calculator-usa.php">
+                                <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-house"></i></div>
+                                    <h2 class="fs-4 fw-bold">Home Loan EMI calculator USA</h2>
+                                    <p class="mb-0">Calculate your Home Loan EMI in USA with our online EMI Calculator USA for Home loans & Personal Loans for absolutely free.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <a href="car-loan-emi-calculator.php">
+                                <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-truck"></i></div>
+                                    <h2 class="fs-4 fw-bold">Car Loan EMI calculator</h2>
+                                    <p class="mb-0">Calculate your Car Loan EMI in India with our online EMI Calculator for Car loans with Graph and Amortized Schedule.</p>
                                 </div>
                             </a>
                         </div>

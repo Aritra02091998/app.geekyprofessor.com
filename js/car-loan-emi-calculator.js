@@ -2,9 +2,10 @@ var principalGlobal = 0;
 var rateOfInterestGlobal = 0;
 var loanTenureGlobal = 0;
 
-var lineGraphLoanTenureArray = new Array();
-var lineGraphTotIntrstValueArray = new Array();
-var lineGraphAmntPayableArray = new Array();
+var interestVariationWithMonth = new Array();
+var remainingLoanAmount = new Array();
+var principleClearedTillDate = new Array();
+var monthsX_Label = new Array();
 
 // principal = loan amount taken.
 
@@ -121,12 +122,7 @@ document.getElementById("loanTenureTextBox").addEventListener("click", function 
   document.getElementById("loanTenureTextBox").value = "";
 });
 
-
-
-
 //------------------------- Value updates from Range Slider----------------------------------------------------
-
-
 
 function updatePrincipalValue(principalAmnt) {
   document.getElementById('principalTextBox').value='₹ amount'.replace('amount', principalAmnt); 
@@ -150,11 +146,121 @@ function updateLoanTenure(loanTenure) {
 
 
 function displayResult(monthlyEMI,totIntereset,totAmountPayable){
+ 
+ // once result is displayed , all rows in the table is deleted for storing result of next 
+ // calculation.
+
+  var table = document.getElementById('amortizedTable');
+  var rowCount = table.rows.length;
+  console.log("row count: ",rowCount);
+  for (var i = rowCount-1; i > 0; i--) {
+      table.deleteRow(i);
+  }
+  console.log(table.rows.length);
+
   document.getElementById('montlyEMI').innerHTML = monthlyEMI.toLocaleString("en-IN", {style:"currency", currency:"INR",maximumFractionDigits:0});
   document.getElementById('principalAmount').innerHTML = principalGlobal.toLocaleString("en-IN", {style:"currency", currency:"INR",maximumFractionDigits:0});
   document.getElementById('totInterest').innerHTML = totIntereset.toLocaleString("en-IN", {style:"currency", currency:"INR",maximumFractionDigits:0});
   document.getElementById('totAmountPayable').innerHTML = totAmountPayable.toLocaleString("en-IN", {style:"currency", currency:"INR",maximumFractionDigits:0});
 }
+
+//---------------------------------- end of value updation---------------------------------------------------------------------------------------------------------------------
+
+function createMonthlyAmortizedSchedule() {
+  var beginningPrincipal = principalGlobal;
+  var interest = (rateOfInterestGlobal/100)/12;
+  var loanTenure = loanTenureGlobal*12;
+  var table = document.getElementById("amortizedTable");
+  table.style.textAlign = "center";
+
+  var tableRow = null;
+  var principleCleared = 0;
+
+  var currMonth,interestAmountExpense,remainingPrincipal,principalReducedInCurrMonth;
+
+  var fixedAnnualPmnt;
+
+  // whenever this function is called the array is cleared os that previous calculation 
+  //values are not taken into the graph.
+
+  interestVariationWithMonth.length = 0;
+  remainingLoanAmount.length = 0;
+  principleClearedTillDate.length = 0;
+
+  // fixedAnnualPmnt = principal*int / [1-1/(1+int)^n]
+  //                      term1          term2
+
+  var term1 = beginningPrincipal*interest;
+  var term2 = 1 - (1/Math.pow((1+interest),loanTenure));
+  fixedAnnualPmnt = (term1 / term2).toFixed(4);
+
+  interestAmountExpense = beginningPrincipal*interest;
+  principalReducedInCurrMonth = fixedAnnualPmnt - interestAmountExpense;
+  remainingPrincipal = beginningPrincipal - principalReducedInCurrMonth;
+  currMonth = 1;
+
+  while (currMonth!=(loanTenure+1)){
+      //console.log("Mon ",currMonth," principal ",beginningPrincipal,"ann pmnt ",fixedAnnualPmnt," Intr Amount ",interestAmountExpense,"Princi reduced ",principalReducedInCurrMonth," Remaining Princi Bal: ",remainingPrincipal);
+      //console.log("\n");
+      
+      tableRow = table.insertRow(table.rows.length);;
+      var cell1 = tableRow.insertCell(0);
+      var cell2 = tableRow.insertCell(1);
+      var cell3 = tableRow.insertCell(2);
+      var cell4 = tableRow.insertCell(3);
+      var cell5 = tableRow.insertCell(4);
+
+      cell1.innerHTML = currMonth;
+      cell2.innerHTML = "₹ amount".replace("amount",parseInt(beginningPrincipal));
+      cell3.innerHTML = "₹ amount".replace("amount",parseInt(interestAmountExpense));
+      cell4.innerHTML = "₹ amount".replace("amount",parseInt(principalReducedInCurrMonth));
+      cell5.innerHTML = "₹ amount".replace("amount",parseInt(remainingPrincipal));
+
+      // for writing the text "End of n th Year" in between the rows
+
+      if (currMonth % 12 == 0){
+        tableRow = table.insertRow(table.rows.length);
+        cell1 = tableRow.insertCell(0);
+        cell2 = tableRow.insertCell(1);
+        cell3 = tableRow.insertCell(2);
+        cell4 = tableRow.insertCell(3);
+        cell5 = tableRow.insertCell(4);
+        
+        cell3.innerHTML="End of nth Year".replace("nth",currMonth/12);
+        cell3.style.backgroundColor = "#AED6F1";
+        cell3.style.fontFamily = "'PT Sans', sans-serif";
+        cell3.style.fontWeight = "bolder";
+
+
+        cell1.style.backgroundColor = "#AED6F1";
+        cell2.style.backgroundColor = "#AED6F1";
+        cell4.style.backgroundColor = "#AED6F1";
+        cell5.style.backgroundColor = "#AED6F1";
+
+      }
+
+      // for drawing Line graph
+      principleCleared = parseInt(principleCleared) + parseInt(principalReducedInCurrMonth);
+      console.log(principleCleared,"->",principalReducedInCurrMonth);
+
+      interestVariationWithMonth.push(interestAmountExpense);
+      remainingLoanAmount.push(remainingPrincipal);
+      principleClearedTillDate.push(principleCleared);
+      monthsX_Label.push(currMonth);
+
+      // variable updates inside the loop
+
+      currMonth = currMonth+1;
+      beginningPrincipal = remainingPrincipal;
+      // no change in fixedAnnualPmnt
+      interestAmountExpense = (beginningPrincipal * interest).toFixed(4);
+      principalReducedInCurrMonth = (fixedAnnualPmnt - interestAmountExpense).toFixed(4);
+      remainingPrincipal = (Math.abs(beginningPrincipal - principalReducedInCurrMonth)).toFixed(3);
+  }
+
+  drawLineGraph();  
+}
+
 
 // Formula: E = P x r x(1 + r)^n / ( ( 1 + r )^n - 1 )
 //                  term1               term2
@@ -187,26 +293,18 @@ function calculateEMIValue(){
 
   displayResult(monthlyEMI,totIntereset,totAmountPayable);
   drawDonutGraph(principalGlobal,totIntereset);
+  createMonthlyAmortizedSchedule();
 
-
-  // for x-axis labels
-  lineGraphLoanTenureArray.push(loanTenureGlobal);
-
-  // total Interest
-  lineGraphTotIntrstValueArray.push(totIntereset);
-
-  // for estimated returns on SIP value.
-  lineGraphAmntPayableArray.push(totAmountPayable);
-
-
-  drawLineGraph();  
+ 
 }
+
+
 
 
 window.onload = function() {
 
   principalGlobal = 100000;
-  rateOfInterestGlobal = 6.5;
+  rateOfInterestGlobal = 7;
   loanTenureGlobal = 5;
   calculateEMIValue();
 
@@ -249,19 +347,25 @@ function drawLineGraph(){
   const myChart2 = new Chart(ctx2, {
       type: 'line',
       data: {
-              labels: lineGraphLoanTenureArray,
+              labels: monthsX_Label,
               datasets: [{ 
-                            data: lineGraphTotIntrstValueArray,
-                            label: "Interest with Year",
-                            borderColor: "#E74C3C",
+                            data: interestVariationWithMonth,
+                            label: "Interest Reduction with Month",
+                            borderColor: "#3498DB",
                             fill: false
                         },
                         { 
-                            data: lineGraphAmntPayableArray,
-                            label: "Amount Payable With Year",
-                            borderColor: "#3498DB",
+                            data: remainingLoanAmount,
+                            label: "Remaining Loan Amount",
+                            borderColor: "#F4D03F",
                             fill: false
-                        }
+                        },
+                        { 
+                            data: principleClearedTillDate,
+                            label: "Principle Cleared Till Month",
+                            borderColor: "#58D68D",
+                            fill: false
+                        }                 
               ]
             },
 
@@ -276,11 +380,6 @@ function drawLineGraph(){
 
 
 
-
-
-
-
-
 /*
 Ref: 
 
@@ -288,7 +387,8 @@ https://stackoverflow.com/questions/10004723/html5-input-type-range-show-range-v
 https://stackoverflow.com/questions/3304014/how-to-interpolate-variables-in-strings-in-javascript-without-concatenation
 https://www.w3schools.com/jsref/jsref_tolocalestring_number.asp
 https://stackoverflow.com/questions/17500704/how-can-i-set-focus-on-an-element-in-an-html-form-using-javascript
-
+https://www.w3schools.com/jsref/met_table_insertrow.asp
+https://stackoverflow.com/questions/18333427/how-to-insert-a-row-in-an-html-table-body-in-javascript
 
 https://www.chartjs.org/docs/latest/charts/doughnut.html#doughnut
 https://www.chartjs.org/docs/latest/getting-started/usage.html

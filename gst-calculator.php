@@ -6,7 +6,12 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>abc</title>
+      <title>Free GST Calculator Online India With CGST-SGST Charts</title>
+
+      <meta name="description" content="Free GST Calculator Online India With CGST-SGST Distribution Charts. Only GST calculator online for free shows you the distribution of your money spent into actual Goods/Service price, GST in Rupees, SGST and CGST."/>
+
+      <meta name="keywords" content="GST Calculator Online, GST calculator, GST calculator India, calculator GST India, GST calculator formula, GST calculator online India,GST calculator inclusive">
+      
       <link rel="stylesheet" href="css/gst-calculator.css">
 
   </head>
@@ -16,7 +21,7 @@
 
     <div class="container">
       <br>
-      <h1 id="SIPheading">Online GST Calculator</h1>
+      <h1 id="SIPheading">GST Calculator Online India</h1>
       <br>     
       <div id="main-content" class="row">
         <div id="section1" class="col-sm-6">
@@ -85,7 +90,7 @@
           <canvas id="myChart1" width="300px" height="150px"></canvas> 
           <br><br>
           <p id="seoContent">
-            Typically, the GST rates are high for luxuries and low for necessities. The GST rate for different commodities and services in India is separated into four brackets: 5% GST, 12% GST, 18% GST, and 28% GST. For your convenience we also included the GST rate 0.25% for rough diamonds and 3% for Gold, Silver.
+            Typically, the GST rates are high for luxuries and low for necessities. The GST rate for different commodities and services in India is separated into four brackets: 5% GST, 12% GST, 18% GST, and 28% GST. For your convenience we also included the GST rate 0.25% for rough diamonds and 3% for Gold, Silver. 
           </p>
           <br>
 

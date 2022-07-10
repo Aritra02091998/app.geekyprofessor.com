@@ -34,11 +34,9 @@
         <b>
           Email: admin@geekyprofessor.com / aduttablog2021gmail.com<br><br>
 
-          Linkedin: Aritra Dutta<br><br>
+          Facebook Page: <a href="https://www.facebook.com/geekyprofessor2021">Techhelp - Geekyprofessor</a><br><br>
 
-          Facebook Page: Geekyprofessor<br><br>
-
-          Instagram: geekyprofessor_blog<br><br>
+          Instagram: <a href= "https://www.instagram.com/geekyprofessor_blog/">Geekyprofessor-blog</a><br><br>
 
           Contact us: <a href= "https://geekyprofessor.com/contact-us/">Through Online Form</a>
         </b>

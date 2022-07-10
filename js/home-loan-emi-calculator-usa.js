@@ -41,7 +41,7 @@ function updateValueFromPrincipalTextBox(){
   }
   else{
     document.getElementById("principalSlider").value = principalGlobal;
-    document.getElementById("principalTextBox").value ='₹ amount'.replace('amount', principalGlobal); 
+    document.getElementById("principalTextBox").value ='$ amount'.replace('amount', principalGlobal); 
     calculateEMIValue();
   }
 }
@@ -129,7 +129,7 @@ document.getElementById("loanTenureTextBox").addEventListener("click", function 
 
 
 function updatePrincipalValue(principalAmnt) {
-  document.getElementById('principalTextBox').value='₹ amount'.replace('amount', principalAmnt); 
+  document.getElementById('principalTextBox').value='$ amount'.replace('amount', principalAmnt); 
   //console.log(typeof invstAmnt);
 
   principalGlobal = parseInt(principalAmnt);
@@ -150,10 +150,10 @@ function updateLoanTenure(loanTenure) {
 
 
 function displayResult(monthlyEMI,totIntereset,totAmountPayable){
-  document.getElementById('montlyEMI').innerHTML = monthlyEMI.toLocaleString("en-IN", {style:"currency", currency:"INR",maximumFractionDigits:0});
-  document.getElementById('principalAmount').innerHTML = principalGlobal.toLocaleString("en-IN", {style:"currency", currency:"INR",maximumFractionDigits:0});
-  document.getElementById('totInterest').innerHTML = totIntereset.toLocaleString("en-IN", {style:"currency", currency:"INR",maximumFractionDigits:0});
-  document.getElementById('totAmountPayable').innerHTML = totAmountPayable.toLocaleString("en-IN", {style:"currency", currency:"INR",maximumFractionDigits:0});
+  document.getElementById('montlyEMI').innerHTML = monthlyEMI.toLocaleString("en-US", {style:"currency", currency:"USD",maximumFractionDigits:0});
+  document.getElementById('principalAmount').innerHTML = principalGlobal.toLocaleString("en-US", {style:"currency", currency:"USD",maximumFractionDigits:0});
+  document.getElementById('totInterest').innerHTML = totIntereset.toLocaleString("en-US", {style:"currency", currency:"USD",maximumFractionDigits:0});
+  document.getElementById('totAmountPayable').innerHTML = totAmountPayable.toLocaleString("en-US", {style:"currency", currency:"USD",maximumFractionDigits:0});
 }
 
 // Formula: E = P x r x(1 + r)^n / ( ( 1 + r )^n - 1 )
@@ -205,13 +205,13 @@ function calculateEMIValue(){
 
 window.onload = function() {
 
-  principalGlobal = 100000;
-  rateOfInterestGlobal = 6.5;
-  loanTenureGlobal = 5;
+  principalGlobal = 5000;
+  rateOfInterestGlobal = 5;
+  loanTenureGlobal = 4.5;
   calculateEMIValue();
 
   // setting initial values into the text Values.
-  document.getElementById('principalTextBox').value = '₹ amount'.replace('amount', principalGlobal); 
+  document.getElementById('principalTextBox').value = '$ amount'.replace('amount', principalGlobal); 
   document.getElementById('rateOfInterestTextBox').value = 'amount %'.replace('amount', rateOfInterestGlobal); 
   document.getElementById('loanTenureTextBox').value = 'amount Yr'.replace('amount', loanTenureGlobal);  
 };
@@ -288,7 +288,7 @@ https://stackoverflow.com/questions/10004723/html5-input-type-range-show-range-v
 https://stackoverflow.com/questions/3304014/how-to-interpolate-variables-in-strings-in-javascript-without-concatenation
 https://www.w3schools.com/jsref/jsref_tolocalestring_number.asp
 https://stackoverflow.com/questions/17500704/how-can-i-set-focus-on-an-element-in-an-html-form-using-javascript
-
+https://www.techonthenet.com/js/number_tolocalestring.php
 
 https://www.chartjs.org/docs/latest/charts/doughnut.html#doughnut
 https://www.chartjs.org/docs/latest/getting-started/usage.html
