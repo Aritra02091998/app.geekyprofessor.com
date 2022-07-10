@@ -39,7 +39,7 @@
         <input type="text" id="rateOfInterestTextBox" onfocusout="updateValueFromRateOfInterestTextBox()">
         <input type="range" class="form-range" min="7" max="20" step="0.01" id="rateSlider" value="7" onchange="updateRateOfInterest(this.value);">
 
-        <label for="customRange3" class="form-label">Loan Tenure</label>
+        <label for="customRange3" class="form-label">Car Loan Tenure</label>
         <input type="text" id="loanTenureTextBox" onfocusout="updateValueFromLoanTenureTextBox()">
         <input type="range" class="form-range" min="1" max="30" step="1" id="loanTenureSlider" value="5" onchange="updateLoanTenure(this.value);">
 

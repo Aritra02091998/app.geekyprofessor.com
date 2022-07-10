@@ -10,6 +10,8 @@
         <link rel="icon" type="image/x-icon" href="assets/geekyprofessor-apps.png" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -197,7 +199,7 @@
                         <div class="card bg-light border-0 h-100">
                             <a href="home-loan-emi-calculator-usa.php">
                                 <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-house"></i></div>
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fa-solid fa-house-chimney"></i></div>
                                     <h2 class="fs-4 fw-bold">Home Loan EMI calculator USA</h2>
                                     <p class="mb-0">Calculate your Home Loan EMI in USA with our online EMI Calculator USA for Home loans & Personal Loans for absolutely free.</p>
                                 </div>
@@ -208,9 +210,20 @@
                         <div class="card bg-light border-0 h-100">
                             <a href="car-loan-emi-calculator.php">
                                 <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-truck"></i></div>
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fa-solid fa-car"></i></div>
                                     <h2 class="fs-4 fw-bold">Car Loan EMI calculator India</h2>
                                     <p class="mb-0">Calculate your Car Loan EMI in India with our online Car loan EMI Calculator for Car loans with Graph and Monthly Amortized Schedule Insights.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <a href="car-loan-calculator-USA.php">
+                                <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="fa-solid fa-taxi"></i></div>
+                                    <h2 class="fs-4 fw-bold">Car Auto loan calculator USA</h2>
+                                    <p class="mb-0">Calculate your auto car loan amount in USA with our online auto car loan calculator for auto loans with Graph and Monthly Amortized Schedule Insights.</p>
                                 </div>
                             </a>
                         </div>
@@ -269,7 +282,7 @@
                 
                 <br><br><br>
 
-                <p class="m-0 text-center text-white">Copyright &copy; app.geekyprofessor.com  2022-23
+                <p class="m-0 text-center text-white">Copyright &copy; apps.geekyprofessor.com  2022-23
                 </p>
                 
             </div>            

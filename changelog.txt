@@ -106,5 +106,18 @@ SEO completed for GST & EMI calculator
 loan EMI calculator is developed for USA by duplicating the loan-emi-calculator.php
 
 
+log: Jul 10,2022 - 9 PM
+
+Car EMI calculator India developed
+New Feature: Loan Amortized schedule is implemented
+Car EMI calculator SEO completed
+
+
+Car-loan-calculator USA is developed using same code from car-emi-calculator-India version
+only the JS code changed little to change Rs to Dollar.
+
+
+
+
 
 
