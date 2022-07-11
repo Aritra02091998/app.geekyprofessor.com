@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 *{
   font-family: "Poppins", sans-serif;
 }
@@ -16,6 +18,7 @@ body{
   flex-direction: column;
   margin: 1% auto;
   overflow: hidden;
+
 }
 .drag-area.active{
   border: 2px solid #fff;
@@ -45,6 +48,8 @@ body{
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .drag-area img{
   height: 100%;
@@ -97,10 +102,10 @@ body{
 
 
 .heading{
-  widh: 100%;
+  width: 100%;
   text-align: center;
   color:#3a86ff ;
-  margin: 3% auto;
+  margin: 1% auto;
 
 }
 
@@ -139,3 +144,18 @@ body{
   font-weight: 400;
 }
 
+
+#seoContent{
+  color: #616A6B;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+#seoIcon{
+  font-size: 90px;
+  margin-bottom: 4%;
+}
