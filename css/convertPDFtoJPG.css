@@ -57,9 +57,9 @@ body{
 
 @media (max-width: 768px) {
   .drag-area{
-    border: 4px dashed #3a86ff;
-    height: 400px;
-    width: 400px;
+    border: 2px dashed #3a86ff;
+    height: 280px;
+    width: 330px;
     border-radius: 5px;
     display: flex;
     align-items: center;

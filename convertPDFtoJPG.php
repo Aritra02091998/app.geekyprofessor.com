@@ -17,17 +17,23 @@ session_start();
 
 
 <body>
+
   <div class="heading">
     <h1>Convert PDF To JPG Online Free</h1>
   </div>
-  <div class="drag-area">
-    <div class="icon"><i class="fa-solid fa-file-pdf"></i></div>
-    <header>Drag & Drop to Upload File</header>
-    <span>OR</span>
-    <button>Browse File</button>
-    <form name="pdfUpload" id="pdfForm" method="post" action="handlers/handleConvertPDFtoJPG.php" enctype="multipart/form-data">
-      <input id="imgField" name="pdfDoc" type="file" hidden>
-    </form>
+
+  <br>
+
+  <div class="container">
+    <div class="drag-area">
+      <div class="icon"><i class="fa-solid fa-file-pdf"></i></div>
+      <header>Drag & Drop to Upload File</header>
+      <span>OR</span>
+      <button>Browse File</button>
+      <form name="pdfUpload" id="pdfForm" method="post" action="handlers/handleConvertPDFtoJPG.php" enctype="multipart/form-data">
+        <input id="imgField" name="pdfDoc" type="file" hidden>
+      </form>
+    </div>
   </div>
 
   <!-- Progress bar -->
@@ -41,6 +47,7 @@ session_start();
   </div>
         
   <!-- end -->
+
 
   <div id = "resultImage">
     <img src = "assets/completed1.gif" height="250px" width="200px">
