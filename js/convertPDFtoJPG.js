@@ -55,7 +55,7 @@ function showFile(){
       dropArea.innerHTML = "";  
 
       var icon = document.createElement('i'); // is a node
-      icon.className = "fa fa-file-pdf-o fa-4x";
+      icon.className = "fa-solid fa-file-pdf fa-4x";
       dropArea.appendChild(icon);
 
       var pdfFileName = document.createElement('p'); // is a node

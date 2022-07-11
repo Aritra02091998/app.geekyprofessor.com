@@ -117,6 +117,13 @@ Car-loan-calculator USA is developed using same code from car-emi-calculator-Ind
 only the JS code changed little to change Rs to Dollar.
 
 
+log: Jul 11,2022 - 9:15 PM
+
+Question asked by me - solved the problem
+
+(when using headers dont use any html tags to output something in the browser screen else headers will not download your file. In this case the header was downloading the working zip file in android browsers.)
+
+https://stackoverflow.com/questions/72938610/php-header-downloading-unreadable-zip-file-in-android?noredirect=1#comment128831359_72938610
 
 
 

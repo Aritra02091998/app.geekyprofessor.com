@@ -9,7 +9,13 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>PDF to JPG converter</title>
+
+    <meta name="description" content="Convert PDF to JPG online for free in just under 5 seconds with this online PDF converter in a highly encrypted way without compromising your data on the Internet."/>
+
+    <meta name="keywords" content="convert pdf to jpg,to convert pdf to jpg,convert from pdf to jpg,convert for pdf to jpg,convert from pdf to jpg free,convert pdf to jpg for free,convert pdf to jpg mac,how to convert pdf to jpg windows,online converter for pdf to jpg,convert pdf to jpg online,convert pdf to jpg download">
+    
     <link rel="stylesheet" href="css/convertPDFtoJPG.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
@@ -44,7 +50,7 @@ session_start();
   <!-- Progress bar -->
 
   <div id="wrapper">
-    <h1 id="head">Converting your PDF into JPG Images </h1>
+    <h1 id="head">Converting PDF into JPG Images </h1>
     <div id="myProgress">
       <div id="myBar">10%</div>
     </div>
@@ -57,13 +63,20 @@ session_start();
   <div id = "resultImage">
     <img src = "assets/completed1.gif" height="250px" width="200px">
     <p>
-      * Watch Me Walking <br> 
-      Your download will start automatically !!<br>
-      Please extract Your Zip after download.
+      * Cute isn't it? So we are. <br> 
+      Your download will start automatically in 6 secs !!<br>
     </p>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Please Note!</strong> Large files can take upto 1 minutes. Stay Strong :) 
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
   </div>
 
-
+  
 
   <br>
   <button class = "btn" id="compress">Convert To JPG</button>    
@@ -81,7 +94,7 @@ session_start();
     
     <hr>
     
-    <h2>Convert PDF to JPG Online Features</h2>
+    <h2>Convert PDF to JPG Online Features<br>(Online Converter for PDF to JPG)</h2>
 
     <br>
 
