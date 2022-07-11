@@ -212,9 +212,6 @@ session_start();
       </div>
 
     </div>
-
-
-
   </div>
 
   <script src="js/convertPDFtoJPG.js"></script>

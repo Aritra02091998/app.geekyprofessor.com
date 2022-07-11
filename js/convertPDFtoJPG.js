@@ -132,7 +132,7 @@ document.getElementById("hiddenFormSubmitBtn").addEventListener("click", functio
 
 
 document.getElementById("redirect").addEventListener("click", function () {
-  window.location.href = "convertPDFtoJPG.php";
+  window.location.href = "convert-pdf-to-jpg.php";
 });
 
 function moveProgressBar() {

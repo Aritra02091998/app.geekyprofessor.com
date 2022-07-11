@@ -82,7 +82,7 @@ document.getElementById("hiddenFormSubmitBtn").addEventListener("click", functio
 // while the progress bar is loading, user can go back and change the PDFs.
 
 document.getElementById("splitMorePDF").addEventListener("click", function () {
-  window.location.href = "splitPDF.php";
+  window.location.href = "split-pdf-online.php";
 });
 
 
