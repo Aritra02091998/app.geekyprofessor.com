@@ -111,6 +111,8 @@ session_start();
   <!-- Actual form submit occurs here,which is hidden and clicked by JS -->
   <button id="hiddenFormSubmitBtn" hidden>hiddenFormSubmit</button>
 
+  <!--SEO content starts from here-->
+
   <div id="seoContent" class="container">
     <br>
     <br>
@@ -266,6 +268,9 @@ session_start();
 
     </div>
   </div>
+
+  <!--SEO content ends here-->
+
 
 
   <script src="js/splitPDFOnline.js"></script>
