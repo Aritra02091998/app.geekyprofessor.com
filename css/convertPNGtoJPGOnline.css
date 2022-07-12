@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 *{
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 body{
   background: whitesmoke;
 }
 .drag-area{
-  border: 4px dashed #3a86ff;
-  height: 400px;
+  border: 2.5px dashed #3a86ff;
+  height: 380px;
   width: 600px;
   border-radius: 5px;
   display: flex;
@@ -15,6 +16,7 @@ body{
   justify-content: center;
   flex-direction: column;
   margin: 1% auto;
+  background-color:#f2f3f4  ;
 }
 .drag-area.active{
   border: 2px solid #fff;
@@ -52,45 +54,44 @@ body{
   border-radius: 5px;
 }
 
-/*compress btn styles and drag area design for mobile device*/
-
-@media (max-width: 768px) {
-  .drag-area{
-    border: 4px dashed #3a86ff;
-    height: 400px;
-    width: 400px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 2% auto;
-  }
-  .drag-area header{
-    font-size: 20px;
-    font-weight: 500;
-    color: #3a86ff;
-  }
-}
-
 #compress {
   display: block;
-  width: 40%;
+  width: 30%;
   border: none;
   background-color: #3a86ff;
   color: white;
   padding: 12px 26px;
   font-size: 20px;
   cursor: pointer;
-  text-align: center;
-  margin-left: 30%;
   font-weight: 500;
   border-radius: 2px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 #compress:hover {
   background-color: #2874A6;
   color: ghostwhite;
+}
+
+/*compress btn styles and drag area design for mobile device*/
+
+@media (max-width: 768px) {
+  .drag-area{
+    border: 2px dashed #3a86ff;
+    width: 400px;
+    height: 380px;
+  }
+  .drag-area header{
+    font-size: 20px;
+    font-weight: 500;
+    color: #3a86ff;
+  }
+  #compress{
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 .heading{
@@ -99,4 +100,19 @@ body{
   color:#3a86ff ;
   margin: 3% auto;
 
+}
+
+#seoContent{
+  color: #616A6B;
+  font-family:  'Roboto Slab', serif;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+#seoIcon{
+  font-size: 90px;
+  margin-bottom: 4%;
 }

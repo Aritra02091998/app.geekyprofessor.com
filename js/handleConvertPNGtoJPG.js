@@ -1,4 +1,6 @@
 var i = 0;
+var isClicked = 0;
+
 function move() {
   if (i == 0) {
     i = 1;
@@ -85,6 +87,18 @@ function hideTableWhenStatusFailed(){
   return status;
 }
 
+document.getElementById("cmprsdImg").addEventListener("click",function(){
+  if (!isClicked){  
+    this.style.transform = "scale(1.4)";
+    this.style.transition = "transform 0.6s ease";
+    isClicked = 1;
+  }
+  else{
+    this.style.transform = "scale(1)";
+    this.style.transition = "transform 0.6s ease";  
+    isClicked = 0;
+  }
+});
 
 
 // ref: https://www.w3schools.com/howto/howto_js_progressbar.asp

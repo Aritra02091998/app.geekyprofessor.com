@@ -66,7 +66,7 @@
         <h3>JPG to Webp Converter Free</h3>
 
         <p>
-          This online PG to Webp Converter application can convert JPG,PNG,GIF to WebP format for free instantly under 5 seconds while preserving the highest possible quality and resolution of each JPEG image from the original file.     
+          This online JPG to Webp Converter application can convert JPG,PNG,GIF to WebP format for free instantly under 5 seconds while preserving the highest possible quality and resolution of each JPEG image from the original file.     
         </p>
 
         <br>

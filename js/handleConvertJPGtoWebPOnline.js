@@ -1,4 +1,6 @@
 var i = 0;
+var isClicked = 0;
+
 function move() {
   if (i == 0) {
     i = 1;
@@ -84,6 +86,29 @@ function hideTableWhenStatusFailed(){
 
   return status;
 }
+
+
+document.getElementById("cmprsdImg").addEventListener("click",function(){
+  if (!isClicked){  
+    this.style.transform = "scale(1.4)";
+    this.style.transition = "transform 0.6s ease";
+    isClicked = 1;
+  }
+  else{
+    this.style.transform = "scale(1)";
+    this.style.transition = "transform 0.6s ease";  
+    isClicked = 0;
+  }
+});
+
+/*
+window.addEventListener('click', function(){ 
+  document.getElementById("cmprsdImg").style.transform = "scale(1)";
+  document.getElementById("cmprsdImg").style.transition = "transform 0.5s ease";
+});  
+
+
+*/
 
 
 

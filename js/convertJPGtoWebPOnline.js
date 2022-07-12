@@ -88,5 +88,8 @@ document.getElementById("compress").addEventListener("click", function () {
 });
 
 
+
+
+
 // Ref for setting the input image field through javascript
 // https://stackoverflow.com/questions/47515232/how-to-set-file-input-value-when-dropping-file-on-page
