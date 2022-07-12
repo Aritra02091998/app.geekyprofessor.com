@@ -109,11 +109,11 @@
                     </div>
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
-                            <a href="convertJPGPNGtoWebP.php">
+                            <a href="jpg-to-webp-online.php">
                                 <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-images"></i></div>
-                                    <h2 class="fs-4 fw-bold">Convert Any Image to WebP</h2>
-                                    <p class="mb-0">Super compress & convert your images into the next generation WebP format for SEO and Sites.</p>
+                                    <h2 class="fs-4 fw-bold">JPG to WebP Converter Online</h2>
+                                    <p class="mb-0">Convert JPG to WebP for blogs and Sites for free Online. Convert JPEG,PNG,GIF images to WebP.</p>
                                 </div>
                             </a>
                         </div>
@@ -134,8 +134,8 @@
                             <a href="jpg-to-pdf-online.php">
                                 <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-file-earmark-richtext-fill"></i></div>
-                                    <h2 class="fs-4 fw-bold">Convert Images into PDF Doc</h2>
-                                    <p class="mb-0">Convert all your JPG,PNG images into a concise PDF Doc under 10 seconds with our ultra fast PDF tool.</p>
+                                    <h2 class="fs-4 fw-bold">JPG to PDF Converter Online</h2>
+                                    <p class="mb-0"> Convert JPG to PDF for free under 5 seconds online while preserving the highest quality of the PDF pages.(JPG to PDF online) </p>
                                 </div>
                             </a>
                         </div>
@@ -145,8 +145,8 @@
                             <a href="merge-pdf-online.php">
                                 <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-intersect"></i></div>
-                                    <h2 class="fs-4 fw-bold">Merge all PDFs</h2>
-                                    <p class="mb-0">This feature merges all your uploaded PDF files into a single PDF Document under 10 seconds.</p>
+                                    <h2 class="fs-4 fw-bold">Merge PDF Free Online</h2>
+                                    <p class="mb-0">Merge PDF Free Online is an application to combine PDF files into a single PDF document in no time.</p>
                                 </div>
                             </a>
                         </div>
@@ -156,8 +156,8 @@
                             <a href="split-pdf-online.php">
                                 <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-signpost-split-fill"></i></div>
-                                    <h2 class="fs-4 fw-bold">Split PDF into Multiple PDFs</h2>
-                                    <p class="mb-0">Split your single PDF Document file to multiple PDF files of each pages in 5 seconds.</p>
+                                    <h2 class="fs-4 fw-bold">Split PDF Pages Free Online</h2>
+                                    <p class="mb-0">Split PDF pages an application to separate PDF pages without lowering quality of page a bit for free online.</p>
                                 </div>
                             </a>
                         </div>
