@@ -8,13 +8,13 @@ session_start();
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../css/handleConvertJPGtoPDF.css">
+        <link rel="stylesheet" href="../css/handleConvertJPGtoPDFOnline.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-        <script src="../js/handleConvertJPGtoPDF.js"></script>
+        <script src="../js/handleConvertJPGtoPDFOnline.js"></script>
 
 
-        <title>Compressing Image</title>
+        <title>JPG to PDF Online Free</title>
     </head>
 
     <body>
