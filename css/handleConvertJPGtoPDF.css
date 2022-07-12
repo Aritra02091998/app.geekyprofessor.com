@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
 #wrapper{
    margin: 10% auto;
    text-align: center;
@@ -51,7 +54,6 @@
   width: 100%;
   text-align: center;
   color:  #85929E;
-  font-style: italic;
   font-weight: 400;
 }
 
@@ -82,5 +84,20 @@
     text-align: center;
     margin: 2% auto;
   }
+}
+
+#seoContent{
+  color: #616A6B;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+#seoIcon{
+  font-size: 90px;
+  margin-bottom: 4%;
 }
 
