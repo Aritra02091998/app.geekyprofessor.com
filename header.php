@@ -6,7 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/geekyprofessor-apps.png" />
+        <link id="webIcon" rel="icon" type="image/x-icon" href="assets/geekyprofessor-apps.png" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -58,6 +58,8 @@
                 document.getElementById("toHome").href = "../index.php";
                 document.getElementById("toAboutUs").href = "../about-us.php";
                 document.getElementById("toDisclaimer").href = "../disclaimer.php";
+                document.getElementById("webIcon").href = "../assets/geekyprofessor-apps.png";
+
             }
             console.log(pageArray);
 
