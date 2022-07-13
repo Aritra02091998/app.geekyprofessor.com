@@ -1,4 +1,4 @@
-<?php include 'headerHandlersCopy.php';
+<?php include '../header.php';
 session_start();    
 ob_start();
 

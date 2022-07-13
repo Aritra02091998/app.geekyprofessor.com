@@ -1,4 +1,4 @@
-<?php include 'headerHandlersCopy.php';?>
+<?php include '../header.php';?>
 
 <!DOCTYPE html>
 <html>

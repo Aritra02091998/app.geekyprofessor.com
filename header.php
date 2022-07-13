@@ -12,14 +12,6 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
 
-        <script type="text/javascript">
-            var path=window.location.pathname;
-            var page = path.split("/");
-
-            console.log(page);
-
-        </script>
-
     </head>
 
     <body>
@@ -30,18 +22,21 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php">Home</a></li>
+                        
+                        <li class="nav-item">
+                            <a id="toHome" class="nav-link active" aria-current="page" href="index.php">Home</a>
+                        </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us.php">About Us</a>
+                            <a id="toAboutUs" class="nav-link" href="about-us.php">About Us</a>
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="https://geekyprofessor.com/contact-us/">Contact us</a>
+                            <a id="toContactUs" class="nav-link" href="https://geekyprofessor.com/contact-us/">Contact us</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="disclaimer.php">Disclaimer</a>
+                            <a id="toDisclaimer" class="nav-link" href="disclaimer.php">Disclaimer</a>
                         </li>
 
                     </ul>
@@ -54,6 +49,19 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
+        <script type="text/javascript">
+            var path=window.location.pathname;
+            var pageArray = path.split("/");
+
+            if (pageArray[2] == "handlers"){
+                document.getElementById("toHome").href = "../index.php";
+                document.getElementById("toAboutUs").href = "../about-us.php";
+                document.getElementById("toDisclaimer").href = "../disclaimer.php";
+            }
+            console.log(pageArray);
+
+        </script>
 
     </body>
 </html>

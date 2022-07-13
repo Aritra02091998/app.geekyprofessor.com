@@ -10,7 +10,7 @@ echo(session_id());
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JPG to PDF Online Free</title>
-    <link rel="stylesheet" href="css/convertJPGtoPDF.css">
+    <link rel="stylesheet" href="css/convertJPGtoPDFOnline.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     
     <meta name="description" content="Need help to convert JPG to PDF online for free? Go nowhere. This JPG to PDF converter-free application can instantly convert JPG to PDF files while preserving the quality."/>
@@ -79,7 +79,7 @@ echo(session_id());
     <div class="row">
       <div class="col-sm">
         <i id="seoIcon" class="fa-solid fa-comment-dollar"></i>
-        <h3>JPG to PDF Converter Free</h3>
+        <h3 id="seoHeader">JPG to PDF Converter Free</h3>
 
         <p>
           This online JPG to PDF converter application can convert JPG to PDF for free (PDF) instantly under 10 seconds while preserving the highest possible quality and resolution of each JPEG image from the original file.     
@@ -91,7 +91,7 @@ echo(session_id());
 
       <div class="col-sm">
         <i id="seoIcon" class="fa-solid fa-person-digging"></i>
-        <h3>Convert JPG to PDF Easily</h3>
+        <h3 id="seoHeader">Convert JPG to PDF Easily</h3>
 
         <p>
           With just two clicks you can convert JPG to PDF online for free into high quality single PDF Doc under 10 seconds. Just click on the Generate PDF button and let us do the rest of the hard work for you.      
@@ -106,7 +106,7 @@ echo(session_id());
     <div class="row">
       <div class="col-sm">
         <i id="seoIcon" class="fa-solid fa-desktop"></i>
-        <h3>Convert JPG to PDF Cross-Platform</h3>
+        <h3 id="seoHeader">Convert JPG to PDF Cross-Platform</h3>
 
         <p>
           This web-based JPG to PDF converter application works on every platform and OS you can think of. Be it Windows, Mac, Linux or Android this application works perfectly everywhere so you can convert JPG to PDF online free for Mac, Windows instantly.
@@ -118,7 +118,7 @@ echo(session_id());
 
       <div class="col-sm">
         <i id="seoIcon" class="fa-solid fa-shield-halved"></i>
-        <h3>Security Enhanced JPG to PDF Online</h3>
+        <h3 id="seoHeader">Security Enhanced JPG to PDF Online</h3>
 
         <p>
           For users content on the Internet our application uses highly encrypted techniques to convert JPG to PDF files . And delivers the converted PDF in a secure PDF file. User data is never stored in our server, it gets deleted after sometime as user exits.
@@ -133,7 +133,7 @@ echo(session_id());
     <div class="row">
       <div class="col-sm">
         <i id="seoIcon" class="fa-solid fa-route"></i>
-        <h3>Convert JPG to PDF On The Way</h3>
+        <h3 id="seoHeader">Convert JPG to PDF On The Way</h3>
 
         <p>
           Doesn't matter wherever you are or whichever device you are using. Our JPG to PDF converter free online application is available 24*7 in the web for you to use. Convert JPG to PDF files while you commute, Walk, in office, in College etc.
@@ -145,7 +145,7 @@ echo(session_id());
 
       <div class="col-sm">
         <i id="seoIcon" class="fa-solid fa-file-zipper"></i>
-        <h3>Extract High Quality Converted PDF</h3>
+        <h3 id="seoHeader">Extract High Quality Converted PDF</h3>
 
         <p>
           This web based free JPG to PDF converter application uses complex algorithm to preserve the quality of the JPEG images being converted into the PDF document. You can get the high quality single PDF doc converted into a single one instantly. Use same resolution JPEG images to get best results.
@@ -163,7 +163,7 @@ echo(session_id());
     <div class="row">
       <div class="col-sm">
         <i id="seoIcon" class="fa-solid fa-person-chalkboard"></i>
-        <h3>How to Convert JPG to PDF Online ? | How to Change JPG to PDF ?</h3>
+        <h3 id="seoHeader">How to Convert JPG to PDF Online ? | How to Change JPG to PDF ?</h3>
 
         <br>
 
@@ -198,7 +198,7 @@ echo(session_id());
     <div class="row">
       <div class="col-sm">
         <i id="seoIcon" class="fa-brands fa-apple"></i>
-        <h3>How To convert JPG to PDF Files MAC</h3>
+        <h3 id="seoHeader">How To convert JPG to PDF Files MAC</h3>
 
         <br>
 
@@ -235,7 +235,7 @@ echo(session_id());
     <div class="row">
       <div class="col-sm">
         <i id="seoIcon" class="fa-solid fa-hand-holding-heart"></i>
-        <h3>Why our JPG to PDF converter Online Application is Free ?</h3>
+        <h3 id="seoHeader">Why our JPG to PDF converter Online Application is Free ?</h3>
 
         <br>
 
