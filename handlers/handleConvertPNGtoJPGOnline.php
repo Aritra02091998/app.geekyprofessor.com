@@ -427,7 +427,7 @@
     </body>
 </html>
 
-<?php include 'footerHandlersCopy.php';?>
+<?php include '../footer.php';?>
 
 
 

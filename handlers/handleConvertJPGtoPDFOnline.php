@@ -391,7 +391,7 @@ session_start();
     </body>
 </html>
 
-<?php include 'footerHandlersCopy.php';?>
+<?php include '../footer.php';?>
 
 
 

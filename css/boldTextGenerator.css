@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+  font-family:  'Roboto Slab', serif;
+}
+
 .output{
 	height: 205px;
 	width: 85%;
@@ -15,9 +21,9 @@
 	margin-left: 15%;
 }
 .heading{
-	margin-top: 5%;
-	margin-left: 38%;
-	margin-bottom: 5%;
+	text-align: center;
+	color: #3a86ff;
+	font-weight: bolder;
 }
 
 @media (max-width: 768px) {
@@ -44,17 +50,17 @@
 
 #copyBtn {
   display: block;
-  width: 26%;
-  border: 1px solid grey;
-  border-radius: 5px;
+  width: 20%;
+  border: none;
   background-color: #3a86ff;
   color: white;
-  padding: 9px 9px;
-  font-size: 14px;
+  padding: 12px 26px;
+  font-size: 20px;
   cursor: pointer;
-  text-align: center;
-  margin-left: 37%;
-  margin-top: 2%;
+  font-weight: 500;
+  border-radius: 2px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #copyBtn:hover {
@@ -66,3 +72,21 @@
 	display:none;	
 	text-align: center;
 }
+
+
+
+#seoContent{
+  color: #616A6B;
+  font-family:  'Roboto Slab', serif;
+}
+
+h3 #seoHeader{
+  text-align: center;
+}
+
+#seoIcon{
+  font-size: 110px;
+  margin: 2% 40%;
+
+}
+

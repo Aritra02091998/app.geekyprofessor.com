@@ -76,11 +76,11 @@
                     </div>
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
-                            <a href="boldTextGenerator.php">
+                            <a href="bold-text-generator.php">
                                 <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-bootstrap-fill"></i></div>
-                                    <h2 class="fs-4 fw-bold">Bold Text for Facebook & Twitter</h2>
-                                    <p class="mb-0">Make your normal text to unicode bold text for typing in bold text in facebook & twitter. </p>
+                                    <h2 class="fs-4 fw-bold">Bold Text Generator Facebook, Instagram, Twitter</h2>
+                                    <p class="mb-0">An online tool Bold text generator for writing bold texts on Facebook, Instagram, Twitter & Youtube.</p>
                                 </div>
                             </a>
                         </div>
