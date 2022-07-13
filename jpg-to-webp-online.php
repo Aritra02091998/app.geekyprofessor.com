@@ -25,11 +25,11 @@
     
     <div class="heading">
       <h1>Convert JPG to WebP Free ( Converter to webp )</h1>
+      
+      <p id="seoContent">
+        Instantly convert JPG,PNG or GIF image to WebP image without losing quality of image.
+      </p>
     </div>
-
-    <p id="seoContent">
-      Instantly convert JPG,PNG or GIF image to WebP image without losing quality of image.
-    </p>
 
     <div class="drag-area">
       <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
@@ -43,8 +43,12 @@
 
   </div>
 
-  <br>
-  <br>
+  <div class="alert alert-warning alert-dismissible fade show" role="alert" style="text-align: center;">
+    <strong>Please Note!</strong> Large Images (>20 MB) can take upto 1 minute to compress. Stay Strong :) 
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
 
   <button id="compress">Convert To WebP</button>
 

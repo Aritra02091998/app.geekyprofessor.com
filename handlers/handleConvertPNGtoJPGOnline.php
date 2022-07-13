@@ -168,7 +168,7 @@
 
             <!--table end -->
 
-            <a href="../convertPNGtoJPG.php">
+            <a href="../png-to-jpg-online.php">
                 <button id="download">Convert Another Image</button>
             </a>
 

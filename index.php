@@ -65,11 +65,11 @@
                 <div class="row gx-lg-5">
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
-                            <a href="compressAnyImage.php">
+                            <a href="compress-image-online.php">
                                 <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-file-earmark-zip-fill"></i></div>
-                                    <h2 class="fs-4 fw-bold">Compress JPG,JPEG Online.</h2>
-                                    <p class="mb-0">With this online JPG compression tool you compress any JPEG file instantly.</p>
+                                    <h2 class="fs-4 fw-bold">Compress Image Online Free</h2>
+                                    <p class="mb-0">Compress Image application is an image compresser tool which can compress JPG, JPEG, GIF and PNG file for free.</p>
                                 </div>
                             </a>
                         </div>

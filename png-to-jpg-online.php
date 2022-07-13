@@ -24,11 +24,11 @@
 
     <div class="heading">
       <h1>Convert PNG To JPG</h1>
-    </div>
-
-    <p id="seoContent">
+      
+      <p id="seoContent">
       Instantly convert PNG to JPG image without losing quality of image.
-    </p>
+      </p>
+    </div>
 
     <div class="drag-area">
       <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
@@ -42,8 +42,12 @@
 
   </div>
 
-
-  <br>
+  <div class="alert alert-warning alert-dismissible fade show" role="alert" style="text-align: center;">
+    <strong>Please Note!</strong> Large Images (>20 MB) can take upto 1 minute to compress. Stay Strong :) 
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
 
   <button id="compress">
     <i class="fa-solid fa-download" style="font-size: 30px;"></i>

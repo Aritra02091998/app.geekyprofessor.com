@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 *{
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
+
 body{
   background: whitesmoke;
 }
@@ -76,20 +78,23 @@ body{
 
 /*compress btn styles and drag area design for mobile device*/
 
+
 @media (max-width: 768px) {
   .drag-area{
     border: 2px dashed #3a86ff;
     width: 400px;
-    height: 380px;
+    height: 230px;
   }
-  .drag-area header{
-    font-size: 20px;
-    font-weight: 500;
-    color: #3a86ff;
+  .drag-area header,.drag-area span{
+    display: none;
   }
   #compress{
     width: 70%;
     margin: 0 auto;
+  }
+  .drag-area .icon{
+    font-size: 70px;
+    margin-bottom: 3%;
   }
 }
 
@@ -105,7 +110,7 @@ body{
 
 #seoContent{
   color: #616A6B;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
   text-align: center;
 }
 

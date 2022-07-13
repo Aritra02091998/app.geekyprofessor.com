@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+  font-family: 'Roboto Slab', serif;
+}
+
+#head{
+  color: #616A6B ;
+}
 #wrapper{
    margin: 10% auto;
    text-align: center;
@@ -24,20 +33,24 @@
 #download {
   display: block;
   width: 30%;
-  border-radius: 4px;
+  border: none;
   background-color: #3a86ff;
   color: white;
   padding: 12px 26px;
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
-  text-align: center;
-  margin: 2% auto;
+  font-weight: 500;
+  border-radius: 2px;
+  margin: 1% auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 #download:hover {
   background-color: #2874A6;
   color: ghostwhite;
 }
+
 
 #cmprsdImg{
   margin: 0 37%;
@@ -76,3 +89,17 @@
   }
 }
 
+#seoContent{
+  color: #616A6B;
+  font-family:  'Roboto Slab', serif;
+  text-align: center;
+}
+
+h3 #seoHeader{
+  text-align: center;
+}
+
+#seoIcon{
+  font-size: 90px;
+  margin-bottom: 4%;
+}

@@ -81,7 +81,6 @@ session_start();
                 foreach($filesToBeDeleted as $file){ 
                     if( (is_file($file)) && ( (time()-filectime($file))>=86400 ) ) {
                     unlink($file); // delete file
-                        echo ("deleted");
                   }
                 }
     

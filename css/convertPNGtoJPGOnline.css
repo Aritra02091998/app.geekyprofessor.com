@@ -81,16 +81,18 @@ body{
   .drag-area{
     border: 2px dashed #3a86ff;
     width: 400px;
-    height: 380px;
+    height: 230px;
   }
-  .drag-area header{
-    font-size: 20px;
-    font-weight: 500;
-    color: #3a86ff;
+  .drag-area header,.drag-area span{
+    display: none;
   }
   #compress{
     width: 70%;
     margin: 0 auto;
+  }
+  .drag-area .icon{
+    font-size: 70px;
+    margin-bottom: 3%;
   }
 }
 
