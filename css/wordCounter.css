@@ -1,22 +1,20 @@
-.flex-container{
-	display: flex;
-	flex-wrap: wrap;
-	padding:2% 2%;
-	margin: 0% 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+  font-family: 'Roboto Slab', serif;
 }
-.textareaWrapper{
-	width: 850px;
-	position: relative;
-	margin:0 40px;
+
+#heading h1{
+	text-align: center;
+	color: #3a86ff;
+	font-weight: bolder;
+	font-size: 3.0rem;
 }
+
 .advancedFeatures{
-	background-color: #D6DBDF;
 	color: #273746;
-	border: 1px solid grey;
 	border-radius: 5px;
-	width: 300px;
-	height: 400px;
-	padding: 10px;
+	padding: 5%;
 }
 
 .shadow-textarea textarea.form-control::placeholder {
@@ -25,27 +23,18 @@
 .shadow-textarea textarea.form-control {
     padding-left: 0.8rem;
 }
-.output{
-	height: 90px;
-	width: 60%;
-	position: relative;
-	left: 8%;
-	background-color: whitesmoke;
-	padding: 10px;
+#output{
+	background-color: #E5E8E8;
 	border: 1px solid grey;
 	border-radius: 5px;
 }
-p{
-	display: inline;
-}
+
 .wordLabel, .characterLabel{
 	font-weight: bolder;
 	font-size: 31px;
 	color: #3a86ff;
 }
-.characterLabel{
-	margin-left: 25%;
-}
+
 #wordCount,#charCount,#advancedFeaturesLabel{
 	font-weight: bolder;
 	font-size: 28px;
@@ -71,41 +60,45 @@ p{
   	background-color: #2874A6;
   	color: ghostwhite;
 }
+
+
+#clearBtn{
+  display: block;
+  width: 30%;
+  border: none;
+  background-color: #3a86ff;
+  color: white;
+  padding: 12px 26px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 2px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#clearBtn:hover {
+  	background-color: #2874A6;
+  	color: ghostwhite;
+}
+
 #writeKeywords,#writeStopWords{
 	color: #99A3A4;
 	font-size: 12px;
 }
-.heading{
-	width: 100%;
-	text-align: center;
-	margin-top: 2%;
+
+#seoContent{
+  color: #616A6B;
+  font-family:  'Roboto Slab', serif;
 }
 
-@media only screen and  (max-width: 1100px) {
-	.output{
-		height: 90px;
-		width: 85%;
-		background-color: whitesmoke;
-		padding: 3%;
-		border: 1px solid grey;
-		border-radius: 5px;
-	}
-	.wordLabel, .characterLabel{
-		font-size: 20px;
-	}
-	.characterLabel{
-		margin-left: 17%;
-	}
-	.textareaWrapper{
-		margin:2%;
-	}
-	.advancedFeatures{
-		width: 80%;
-		margin-left:40px;
-	}
-	.flex-container{
-		display: flex;
-		flex-wrap: wrap;
-		margin: 0;
-	}
+h3 #seoHeader{
+  text-align: center;
+}
+
+#seoIcon{
+  font-size: 120px;
+  margin-bottom: 4%;
+  margin-left: 40%;
 }
