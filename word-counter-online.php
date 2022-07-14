@@ -9,7 +9,7 @@
 
 	    <meta name="description" content="Free online word counter for counting words in PDF, DOC, Blog, and Site content. You can count words online in your created content and see the keyword density for free."/>
 
-	    <meta name="keywords" content="word counter,word counter online,online word counter ,count words online,free online word counter ,word count in google docs,word count on google docs,word counter google docs,word counter for pdf,word counter in microsoft word,word count for pdf,word count novel,word count tool online ">
+	    <meta name="keywords" content="word counter,word counter online,online word counter ,count words online,free online word counter,word count in google docs,word count on google docs,word counter google docs,word counter for pdf,word counter in microsoft word,word count for pdf,word count novel,word count tool online">
 
         <link href="css/wordCounter.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">

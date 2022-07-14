@@ -3,9 +3,15 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+
+        <meta name="description" content="Collection of free online applications for your daily use like Image compressor, PDF to JPG, PNG to JPG, JPG to WebP converter, EMI, SIP, Car Loan Calculator, Word Counter, Bold Text Generator etc" />
+
+        <meta name="keywords" content="online word counter,free online word counter,split pdf free,sip calculator for mutual fund,convert to png to jpg,merge pdf free,Online EMI calculator,converter to webp,convert jpg to pdf,emi calculator USA,GST Calculator Online,convert pdf to jpg,compress image online,car loan emi calculator,auto car loan calculator,bold text generator,convert pdf to jpg for free,sip calculator yearly">
+
+        <meta name="author" content="Geekyprofessor Apps" />
+
         <title>Geekyprofessor Apps - Free Online Tools</title>
+
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/geekyprofessor-apps.png" />
         <!-- Bootstrap icons-->
@@ -48,8 +54,8 @@
             <div class="container px-lg-0" >
                 <div class="p-4 p-lg-3 bg-light rounded-3 text-center" style="background-image: url('assets/banner1.webp');">
                     <div class="m-4 m-lg-5">
-                        <h1 class="display-5 fw-bold text-white">A warm welcome!</h1>
-                        <p class="fs-4 text-white">Bootstrap utility classes are used to create this jumbotron since the old component has been removed from the framework. Why create custom CSS when you can use utilities?</p>
+                        <h1 class="display-5 fw-bold text-white">Geekyprofessor Apps!</h1>
+                        <p class="fs-4 text-white">Find huge collection of online utility applications free for your daily use at College, Universities & Office like Image compresser, PDF to JPG, PNG to JPG, JPG to WebP converter, EMI, SIP, Car Loan calculator, Word Counter, Bold Text Generator etc. </p>
                         <a class="btn btn-primary btn-lg" href="#!">Call to action</a>
                     </div>
                 </div>
@@ -87,11 +93,11 @@
                     </div>
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
-                            <a href="wordCounter.php">
+                            <a href="word-counter-online.php">
                                 <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-badge-wc-fill"></i></div>
-                                    <h2 class="fs-4 fw-bold">Word Counter For BLOG SEO</h2>
-                                    <p class="mb-0">Knowing the word count of a Blog can be important.Check Word Count and Keyword Density For Free.</p>
+                                    <h2 class="fs-4 fw-bold">Online Word Counter For SEO </h2>
+                                    <p class="mb-0">Free online word counter for counting words in PDF, DOC, Blog, and Site content. Count words online in your content and see keyword density for free.</p>
                                 </div>
                             </a>
                         </div>
