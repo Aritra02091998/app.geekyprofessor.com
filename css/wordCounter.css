@@ -24,9 +24,9 @@
     padding-left: 0.8rem;
 }
 #output{
-	background-color: #E5E8E8;
-	border: 1px solid grey;
 	border-radius: 5px;
+	box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0), 0 3px 2px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .wordLabel, .characterLabel{

@@ -7,9 +7,9 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <title>Compress Image Online Free - JPG, JPEG, PNG and GIF</title>
 
-	    <meta name="description" content="A simple online tool Bold text generator for writing a bold text on Facebook, Instagram, Twitter & Youtube. It converts your entered text into Unicode bold strings and copies to clipboard."/>
+	    <meta name="description" content="Free online word counter for counting words in PDF, DOC, Blog, and Site content. You can count words online in your created content and see the keyword density for free."/>
 
-	    <meta name="keywords" content="bold text generator,text fonts bold,bold text generator facebook,bold text generator copy and paste,bold text generator instagram,bold text generator for google forms,how to make text bold on youtube,is bold text better on iphone,tiny bold text generator">
+	    <meta name="keywords" content="word counter,word counter online,online word counter ,count words online,free online word counter ,word count in google docs,word count on google docs,word counter google docs,word counter for pdf,word counter in microsoft word,word count for pdf,word count novel,word count tool online ">
 
         <link href="css/wordCounter.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -21,6 +21,7 @@
 		<div id="heading" class="container">
 			<br>
 			<h1>Word Counter For BLOG SEO</h1>
+			<p id="seoContent">Free online word counter for counting words in PDF, DOC, Blog, and Site content. Find Keyword Density and Stop Words Density for free Online.</p>
 			<br>
 		</div>
 
@@ -80,6 +81,10 @@
 						</div>
 
 					</div>
+				</div>
+
+				<div class="col-sm">
+					
 				</div>
 				
 
@@ -206,6 +211,106 @@
 
 				<p>
 					In fact, all you have to do is click on this URL apps.geekyprofessor.com/word-counter-online.php and enter your content into the available text box, and the tool will automatically conduct the scan and display the results to you.
+				</p>
+
+				<br>
+		        <hr>
+		        <br>
+
+		      </div>
+
+		    </div>
+
+		    <div class="row">
+		      <div class="col-sm">
+		        <i id="seoIcon" class="fa-solid fa-sitemap"></i>
+		        <h3 id="seoHeader">How word counter can improve SEO rankings ?
+		        ( Word counter for SEO )</h3>
+
+		        <br>
+
+		        <p>
+					When it comes to SEO writing, word count is crucial. The majority of high-ranking material on page one of SERPs is long-form articles. Many of them are longer than 2,000 words, and the majority are at least 1,500 words. So you need touseword counter online to measure SEO performance.
+				</p>
+
+				<p>
+					You'll notice that many long-form articles contain evergreen material, which is the finest type of content for SEO. In comparison to material based on current events or viral trends, evergreen content earns more clicks over time.				
+				</p>
+
+				<p>
+					Longer articles are perceived as more authoritative. When you need to produce longer material, you can include more facts and information in your piece to make it more valuable.
+				</p>
+
+				<p>
+					Using the online Word Counter  Tool, you can ensure that your content has the minimum number of words required for SEO best practises. A good word count does not guarantee good search rankings, but it will undoubtedly benefit in the long term.		
+				</p>
+
+				<br>
+		        <hr>
+		        <br>
+
+		      </div>
+
+		    </div>
+
+		    <div class="row">
+		      <div class="col-sm">
+		        <i id="seoIcon" class="fa-brands fa-google"></i>
+		        <h3 id="seoHeader">How to Word Count in Google Docs ?</h3>
+
+		        <br>
+
+		        <p>
+					<strong>1.</strong>
+					Copy whole paragraph or post from Google Doc.
+				</p>
+
+				<p>
+					<strong>2.</strong>
+					Paste in our Word Counter online app's text box.
+				</p>
+
+				<p>
+					<strong>3.</strong>
+					Total number of word and characters will be automatically displayed in the results section. This way you can Word Count on google docs
+				</p>
+
+				<p>
+					So you can also use this as Word Counter of Google Docs. Not only this you can use this as word counter for PDF by copying the whole text of PDF into our online Word Counter.
+				</p>
+
+				<br>
+		        <hr>
+		        <br>
+
+		      </div>
+
+		    </div>
+
+		    <div class="row">
+		      <div class="col-sm">
+		        <i id="seoIcon" class="fa-solid fa-chalkboard-user"></i>
+		        <h3 id="seoHeader">How to use this online app as Word Counter in Microsoft Word ?</h3>
+
+		        <br>
+
+		        <p>
+					<strong>1.</strong>
+					Copy whole paragraph or post from Microsoft word.
+				</p>
+
+				<p>
+					<strong>2.</strong>
+					Paste the text in our Word Counter online app's text box.
+				</p>
+
+				<p>
+					<strong>3.</strong>
+					Total number of word and characters will be automatically displayed in the results section. This way you can use this as word counter in Microsoft word also.
+				</p>
+
+				<p>
+					If you want word counter for books or word counter for essay this is the best word counter website you can find whil will give you the result instatntly.
 				</p>
 
 				<br>
