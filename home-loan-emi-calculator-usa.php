@@ -18,10 +18,15 @@
 
 
   <body>
-
-  <div class="container">
+  <br>
+  <div id="background" class="container">
     <br>
     <h1 id="SIPheading">Home Loan EMI Calculator USA </h1>
+    
+    <p id="seoContent" style="font-size:20px">
+      For many US citizens, owning a home is a dream. They put their money into a brick and mortar structure, fill it with their dreams, style it with their favourite artefacts, and turn it into the house of their dreams. Owning a home is a big commitment, but it can be quite rewarding. Calculate your Home Loan EMI in USA with our online EMI Calculator USA for Home loans. 
+    </p>
+
     <br>     
     <div id="main-content" class="row">
 
@@ -38,55 +43,60 @@
         <input type="text" id="loanTenureTextBox" onfocusout="updateValueFromLoanTenureTextBox()">
         <input type="range" class="form-range" min="1" max="30" step="1" id="loanTenureSlider" value="5" onchange="updateLoanTenure(this.value);">
 
-        <br><br><br>
+        <br><br><br><br>
 
-        <div class="container-fluid">
-          <div id="child1">
-            <p>
-              Monthly EMI Amount
-            </p>
+        <div id="results" class="container">
 
-            <p>
-              Principal Amount
-            </p>
+          <div class="row">
 
-            <p>
-              Total Interest
-            </p>
+            <div class="col col-lg-8">
+              <p>
+                Monthly EMI Amount
+              </p>
 
-            <p>
-              Total Amount Payable
-            </p>
+              <p>
+                Principal Amount
+              </p>
+
+              <p>
+                Total Interest
+              </p>
+
+              <p>
+                Total Amount Payable
+              </p>
+            </div>
+
+            <div class="col-auto">
+              <p id="montlyEMI">
+                Amount 1
+              </p>
+
+              <p id="principalAmount">
+                Amount 2
+              </p>
+
+              <p id="totInterest">
+                Amount 3
+              </p>
+
+              <p id="totAmountPayable">
+                Amount 4
+              </p>
+            </div>
+
           </div>
-
-          <div id="child2">
-            <p id="montlyEMI">
-              Amount 1
-            </p>
-
-            <p id="principalAmount">
-              Amount 2
-            </p>
-
-            <p id="totInterest">
-              Amount 3
-            </p>
-
-            <p id="totAmountPayable">
-              Amount 4
-            </p>
-
-          </div>
+          
         </div>
         
       </div>
 
       <div id="section2" class="col-sm-6">
 
-        <canvas id="myChart1" width="300px" height="150px"></canvas> 
+        <canvas id="myChart1" width="300px" height="210px"></canvas> 
         <br>
         <p id="seoContent">
-          For example, if you borrow $ 5,000 from the bank at 4.5% annual interest for a period of 5 years then Monthly EMI = 5000 * 0.00375 * (1 + 0.00375)60 / ((1 + 0.00375)60 - 1) = $ 93 i.e. you will have to pay $ 93 for 60 months to repay the entire loan amount. The total amount payable will be $ 5,593 that includes $593 as interest toward the loan.
+          For example, if you borrow $ 5,000 from the bank at 4.5% annual interest for a period of 5 years then Monthly EMI = 5000 * 0.00375 * (1 + 0.00375)60 / ((1 + 0.00375)60 - 1) = $ 93 i.e. you will have to pay $ 93 for 60 months to repay the entire loan amount. The total amount payable will be $ 5,593 that includes $ 593 as interest toward the loan.
         </p>  
         
       </div>
@@ -104,7 +114,7 @@
 
     <div id="section3">
 
-      <canvas id="myChart2" width="50px" height="25px"></canvas>   
+      <canvas id="myChart2" width="55px" height="35px"></canvas>   
 
       <br>
       
@@ -120,6 +130,10 @@
   <div id="seoContent" class="container">
     <div class="row">
       <div class="col">
+        
+        <hr>
+        <br>
+        
         <h2>What is EMI ?</h2>
 
         <p>

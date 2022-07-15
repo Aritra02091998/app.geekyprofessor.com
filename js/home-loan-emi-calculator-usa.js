@@ -230,7 +230,7 @@ function drawDonutGraph(principalGlobal,totIntereset){
               datasets: [{
                 label: 'EMI',
                 data: [principalGlobal, totIntereset],
-                backgroundColor: ['rgb(54, 162, 235)','rgb(255, 205, 86)'],
+                backgroundColor: ['rgb(254, 93, 76)','rgb(255, 205, 86)'],
               }]
             },
       options: {

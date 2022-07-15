@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-
-#main-content{
-  border: 1px solid #E5E7E9;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+body{
+  background-image: url("../assets/home-loan-USA.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 22.5%;
+}
+#background{
+  background-color: rgb(255,255,255,0.87);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
 
+
 .container #section1{
-  background-color: white;
   padding: 5%;
 }
 
 .container #section2{
-  background-color: white;
+  padding: 5%;
 }
 
 #SIPheading{
@@ -44,20 +48,12 @@ span{
   margin-left: 30%;
 }
 
-#child1{
-  display: inline-block;
-}
-
-#child2{
-  display: inline-block;
-  margin-left: 35%;
+#results{
   font-weight: 600;
   color: #3a86ff;
 }
 
-#myChart1{
-  margin-top:15%;
-}
+
 #section3{
   padding: 0 15%;
 }
@@ -68,8 +64,12 @@ span{
 }
 @media (max-width: 768px) {
   #section3{
-    padding: 0 2%;
+    padding: 0 0;
   }
+  body{
+    background-size: 130% 11.5%;
+  }
+ 
 }
 
 #seoContent{
