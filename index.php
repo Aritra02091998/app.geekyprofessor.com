@@ -29,11 +29,18 @@
         <!-- Header-->
         <header class="py-5" >
             <div class="container px-lg-0" >
-                <div class="p-4 p-lg-3 bg-light rounded-3 text-center" style="background-image: url('assets/banner1.webp');">
+                <div id="banner" class="p-4 p-lg-3 bg-light rounded-3 text-center">
                     <div class="m-4 m-lg-5">
-                        <h1 class="display-5 fw-bold text-white">Geekyprofessor Apps!</h1>
-                        <p class="fs-4 text-white">Find huge collection of online utility applications free for your daily use at College, Universities & Office like Image compresser, PDF to JPG, PNG to JPG, JPG to WebP converter, EMI, SIP, Car Loan calculator, Word Counter, Bold Text Generator etc. </p>
-                        <a class="btn btn-primary btn-lg" href="https://geekyprofessor.com/">Visit our Blog</a>
+                        
+                        <h1 class="display-5 fw-bold text-white" hidden>Geekyprofessor Apps!</h1>
+                        
+                        <p class="fs-4 text-white" hidden>Find huge collection of online utility applications free for your daily use at College, Universities & Office like Image compresser, PDF to JPG, PNG to JPG, JPG to WebP converter, EMI, SIP, Car Loan calculator, Word Counter, Bold Text Generator etc. </p>
+                        
+                        <br><br><br><br><br><br><br><br>
+                        <a class="btn btn-primary btn-lg" href="https://geekyprofessor.com/">
+                            Visit our Blog
+                        </a>
+
                     </div>
                 </div>
             </div>

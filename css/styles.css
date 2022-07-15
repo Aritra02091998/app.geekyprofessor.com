@@ -12201,4 +12201,17 @@ textarea.form-control-lg {
   font-size: 2rem;
 }
 
+#banner{
+  background-image: url('../assets/geekyprofessor-apps-banner.png');
+  background-size: cover;
+}
 
+@media (max-width: 768px) {
+  
+  #banner{
+    background-image: url('../assets/geekyprofessor-apps-mobile-banner.png');
+    background-size: cover;
+    height: 400px;
+  }
+
+}
