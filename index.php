@@ -1,3 +1,5 @@
+<?php include 'header.php';?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -21,33 +23,8 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+    
     <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-lg-5">
-                <a class="navbar-brand" href="index.php">Geekyprofessor Apps</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php">Home</a></li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="about-us.php">About Us</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://geekyprofessor.com/contact-us/">Contact us</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="disclaimer.php">Disclaimer</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
         
         <!-- Header-->
         <header class="py-5" >
@@ -56,7 +33,7 @@
                     <div class="m-4 m-lg-5">
                         <h1 class="display-5 fw-bold text-white">Geekyprofessor Apps!</h1>
                         <p class="fs-4 text-white">Find huge collection of online utility applications free for your daily use at College, Universities & Office like Image compresser, PDF to JPG, PNG to JPG, JPG to WebP converter, EMI, SIP, Car Loan calculator, Word Counter, Bold Text Generator etc. </p>
-                        <a class="btn btn-primary btn-lg" href="#!">Call to action</a>
+                        <a class="btn btn-primary btn-lg" href="https://geekyprofessor.com/">Visit our Blog</a>
                     </div>
                 </div>
             </div>

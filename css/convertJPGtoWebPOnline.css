@@ -3,7 +3,6 @@
 *{
   font-family: 'Roboto Slab', serif;
 }
-
 body{
   background: whitesmoke;
 }
@@ -57,7 +56,7 @@ body{
 
 #compress {
   display: block;
-  width: 40%;
+  width: 30%;
   border: none;
   background-color: #3a86ff;
   color: white;
@@ -78,12 +77,11 @@ body{
 
 /*compress btn styles and drag area design for mobile device*/
 
-
 @media (max-width: 768px) {
   .drag-area{
     border: 2px dashed #3a86ff;
-    width: 400px;
-    height: 230px;
+    width: 312px;
+    height: 240px;
   }
   .drag-area header,.drag-area span{
     display: none;
@@ -98,8 +96,6 @@ body{
   }
 }
 
-
-
 .heading{
   widh: 100%;
   text-align: center;
@@ -110,11 +106,11 @@ body{
 
 #seoContent{
   color: #616A6B;
-  font-family: 'Roboto Slab', serif;
+  font-family:  'Roboto Slab', serif;
   text-align: center;
 }
 
-h3{
+h3 #seoHeader{
   text-align: center;
 }
 

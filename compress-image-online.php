@@ -38,6 +38,8 @@
     </form>
   </div>
 
+  <br>
+
   <div class="alert alert-warning alert-dismissible fade show" role="alert" style="text-align: center;">
     <strong>Please Note!</strong> Large Images (>20 MB) can take upto 1 minute to compress. Stay Strong :) 
     <button type="button" class="close" data-dismiss="alert" aria-label="Close">

@@ -207,7 +207,7 @@
         </div>
         <?php } ?>
 
-        <a href="../compressAnyImage.php">
+        <a href="../compress-image-online.php">
             <button id="download">Compress Another Image</button>
         </a>
 

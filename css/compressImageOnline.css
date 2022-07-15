@@ -80,8 +80,8 @@ body{
 @media (max-width: 768px) {
   .drag-area{
     border: 2px dashed #3a86ff;
-    width: 400px;
-    height: 230px;
+    width: 312px;
+    height: 240px;
   }
   .drag-area header,.drag-area span{
     display: none;
