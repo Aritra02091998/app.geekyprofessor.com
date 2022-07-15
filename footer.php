@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link id="footerStyleSheet" rel="stylesheet" href="css/footer.css">
+
+    
+
 </head>
 
 <body>
@@ -91,9 +94,11 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-
+    
     <script type="text/javascript">
         var path=window.location.pathname;
+        console.log("path is: ",path);
+
         var pageArray = path.split("/");
 
         if (pageArray[2] == "handlers"){
@@ -114,9 +119,9 @@
             document.getElementById("footerStyleSheet").href = "../css/footer.css";
 
         }
-        console.log(pageArray);
 
     </script>
+    
 </body>
 
 </html>

@@ -209,7 +209,7 @@
             <div class="row">
               <div class="col-sm">
                 <i id="seoIcon" class="fa-solid fa-comment-dollar"></i>
-                <h3>JPG to Webp Converter Free</h3>
+                <h3 id="seoHeader">JPG to Webp Converter Free</h3>
 
                 <p>
                   This online PG to Webp Converter application can convert JPG,PNG,GIF to WebP format for free instantly under 5 seconds while preserving the highest possible quality and resolution of each JPEG image from the original file.     
@@ -221,7 +221,7 @@
 
               <div class="col-sm">
                 <i id="seoIcon" class="fa-solid fa-person-digging"></i>
-                <h3>Convert JPG to WebP Easily</h3>
+                <h3 id="seoHeader">Convert JPG to WebP Easily</h3>
 
                 <p>
                   With just two clicks you can convert JPG to WebP online for free into high quality WebP Image for your Blog or Website under 5 seconds. Just click on the Convert to WebP button and let us do the rest of the hard work for you.      
@@ -236,7 +236,7 @@
             <div class="row">
               <div class="col-sm">
                 <i id="seoIcon" class="fa-solid fa-desktop"></i>
-                <h3>From JPG to WebP Cross-Platform</h3>
+                <h3 id="seoHeader">From JPG to WebP Cross-Platform</h3>
 
                 <p>
                   This web-based JPG to WebP converter application works on every platform and OS you can think of. Be it Windows, Mac, Linux or Android this application works perfectly everywhere so you can convert to WebP format online free for Mac, Windows instantly.
@@ -248,7 +248,7 @@
 
               <div class="col-sm">
                 <i id="seoIcon" class="fa-solid fa-shield-halved"></i>
-                <h3>Security Enhanced JPG to WebP Conversion</h3>
+                <h3 id="seoHeader">Security Enhanced JPG to WebP Conversion</h3>
 
                 <p>
                   For users content on the Internet our application uses highly encrypted techniques for converting JPG to WebP images. And delivers the converted WebP image in a secure file. User images is never stored in our server, it gets deleted after sometime as user exits.
@@ -263,7 +263,7 @@
             <div class="row">
               <div class="col-sm">
                 <i id="seoIcon" class="fa-solid fa-people-roof"></i>
-                <h3>All Image Extension Supported</h3>
+                <h3 id="seoHeader">All Image Extension Supported</h3>
 
                 <p>
                   Geekyprofessor apps converter to WebP application supports all image format to be converted into high qulity WebP images. It supports JPG, JPEG, PNG, GIF image extensions. Not many converter on Internet supports all these.
@@ -275,7 +275,7 @@
 
               <div class="col-sm">
                 <i id="seoIcon" class="fa-solid fa-check-double"></i>
-                <h3>Best WebP Converter</h3>
+                <h3 id="seoHeader">Best WebP Converter</h3>
 
                 <p>
                   Convert JPG to WebP online free with highest quality of WebP Images possible. The WebP image size may imcrease but we never compromise with the resolution of images. We understand the need of clarity while using WebP in sites.
@@ -290,7 +290,7 @@
             <div class="row">
               <div class="col-sm">
                 <i id="seoIcon" class="fa-solid fa-route"></i>
-                <h3>Convert JPG WebP On the Go</h3>
+                <h3 id="seoHeader">Convert JPG WebP On the Go</h3>
 
                 <p>
                   Doesn't matter wherever you are or whichever device you are using. Our JPG to WebP converter (converter to WebP )free online application is available 24*7 in the web for you to use. Convert JPG to WebP images while you commute, Walk, in office, in College etc.
@@ -302,7 +302,7 @@
 
               <div class="col-sm">
                 <i id="seoIcon" class="fa-solid fa-file-zipper"></i>
-                <h3>High Quality JPEG to WebP Images</h3>
+                <h3 id="seoHeader">High Quality JPEG to WebP Images</h3>
 
                 <p>
                   This web based free JPG to WebP converter application uses complex algorithm to preserve the quality of the JPEG images being converted into the WebP images. Because we know how quality images matter for your websiteand blogs. You can get the high quality WebP images instantly. 
@@ -320,7 +320,7 @@
             <div class="row">
               <div class="col-sm">
                 <i id="seoIcon" class="fa-solid fa-person-chalkboard"></i>
-                <h3>How to Convert JPG to WebP Online ?</h3>
+                <h3 id="seoHeader">How to Convert JPG to WebP Online ?</h3>
 
                 <br>
 
@@ -355,7 +355,7 @@
             <div class="row">
               <div class="col-sm">
                 <i id="seoIcon" class="fa-solid fa-circle-question"></i>
-                <h3>What is WebP Image Extensions ?</h3>
+                <h3 id="seoHeader">What is WebP Image Extensions ?</h3>
 
                 <br>
 
@@ -373,7 +373,7 @@
             <div class="row">
               <div class="col-sm">
                 <i id="seoIcon" class="fa-solid fa-down-left-and-up-right-to-center"></i>
-                <h3>Why Convert to WebP Online ?</h3>
+                <h3 id="seoHeader">Why Convert to WebP Online ?</h3>
 
                 <br>
 
@@ -391,7 +391,7 @@
             <div class="row">
               <div class="col-sm">
                 <i id="seoIcon" class="fa-brands fa-apple"></i>
-                <h3>How To convert JPG to WebP Images MAC</h3>
+                <h3 id="seoHeader">How To convert JPG to WebP Images MAC</h3>
 
                 <br>
 
@@ -428,7 +428,7 @@
             <div class="row">
               <div class="col-sm">
                 <i id="seoIcon" class="fa-solid fa-hand-holding-heart"></i>
-                <h3>Why our JPG to WebP converter Online Application is Free ?</h3>
+                <h3 id="seoHeader">Why our JPG to WebP converter Online Application is Free ?</h3>
 
                 <br>
 
