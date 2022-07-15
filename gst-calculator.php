@@ -26,9 +26,18 @@
       <div id="main-content" class="row">
         <div id="section1" class="col-sm-6">
 
-          <label for="incl" class="form-label">GST Mode&nbsp&nbsp</label>
-          <button id="incl" class="btn btn-outline-success">GST Inclusive</button>
-          <button id="excl" class="btn btn-outline-success">GST Exclusive</button>
+          <label for="incl" class="form-label">GST Mode: &nbsp&nbsp</label>
+
+          <div class="row">
+            <div class="col">
+              <button id="incl" class="btn btn-outline-success">GST Inclusive</button>
+            </div>
+
+            <div class="col">
+              <button id="excl" class="btn btn-outline-success">GST Exclusive</button>
+            </div>
+          </div>
+
           <br><br>
 
           <label id="inclExclLabel" for="customRange3" class="form-label">Price GST Incl.</label>
@@ -44,41 +53,44 @@
           </p> 
           <br>
 
-          <div class="container-fluid">
-            <div id="child1">
-              <p>
-                GST Amount
-              </p>
+          <div id="results" class="container">
+            <div class="row">
 
-              <p>
-                Product/Service Amount
-              </p>
+              <div class="col col-lg-8">
+                <p>
+                  GST Amount
+                </p>
 
-              <p>
-                CGST
-              </p>
+                <p>
+                  Product Amount
+                </p>
 
-              <p>
-                SGST
-              </p>
-            </div>
+                <p>
+                  CGST
+                </p>
 
-            <div id="child2">
-              <p id="gstAmount">
-                Amount 1
-              </p>
+                <p>
+                  SGST
+                </p>
+              </div>
 
-              <p id="prodAmount">
-                Amount 2
-              </p>
+              <div class="col">
+                <p id="gstAmount">
+                  Amount 1
+                </p>
 
-              <p id="cgstAmount">
-                Amount 3
-              </p>
+                <p id="prodAmount">
+                  Amount 2
+                </p>
 
-              <p id="sgstAmount">
-                Amount 4
-              </p>
+                <p id="cgstAmount">
+                  Amount 3
+                </p>
+
+                <p id="sgstAmount">
+                  Amount 4
+                </p>
+              </div>
 
             </div>
           </div>
@@ -87,7 +99,7 @@
 
         <div id="section2" class="col-sm-6">
 
-          <canvas id="myChart1" width="300px" height="150px"></canvas> 
+          <canvas id="myChart1" width="300px" height="200px"></canvas> 
           <br><br>
           <p id="seoContent">
             Typically, the GST rates are high for luxuries and low for necessities. The GST rate for different commodities and services in India is separated into four brackets: 5% GST, 12% GST, 18% GST, and 28% GST. For your convenience we also included the GST rate 0.25% for rough diamonds and 3% for Gold, Silver. 
