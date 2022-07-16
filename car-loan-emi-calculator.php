@@ -45,50 +45,51 @@
 
         <br><br><br>
 
-        <div class="container-fluid">
-          <div id="child1">
-            <p>
-              Monthly EMI Amount
-            </p>
+        <div id="results" class="container">
+          <div class="row">
+            <div class="col col-lg-8">
+              <p>
+                Monthly EMI Amount
+              </p>
 
-            <p>
-              Principal Amount
-            </p>
+              <p>
+                Principal Amount
+              </p>
 
-            <p>
-              Total Interest
-            </p>
+              <p>
+                Total Interest
+              </p>
 
-            <p>
-              Total Amount Payable
-            </p>
+              <p>
+                Total Amount Payable
+              </p>
+            </div>
+
+            <div class="col-auto">
+              <p id="montlyEMI">
+                Amount 1
+              </p>
+
+              <p id="principalAmount">
+                Amount 2
+              </p>
+
+              <p id="totInterest">
+                Amount 3
+              </p>
+
+              <p id="totAmountPayable">
+                Amount 4
+              </p>
+            </div>
           </div>
-
-          <div id="child2">
-            <p id="montlyEMI">
-              Amount 1
-            </p>
-
-            <p id="principalAmount">
-              Amount 2
-            </p>
-
-            <p id="totInterest">
-              Amount 3
-            </p>
-
-            <p id="totAmountPayable">
-              Amount 4
-            </p>
-
-          </div>
-        </div>
         
+        </div>
       </div>
 
       <div id="section2" class="col-sm-6">
 
-        <canvas id="myChart1" width="300px" height="150px"></canvas> 
+        <canvas id="myChart1" width="300px" height="210px"></canvas> 
         <br>
         <p id="seoContent">
           For example, if you borrow Rs.10,00,000 from the bank at 6.5% annual interest for a period of 5 years then Monthly EMI = 10,00,000 * 0.00541 * (1 + 0.00541)60 / ((1 + 0.00541)60 - 1) = Rs.1957. i.e. you will have to pay Rs.1957 for 60 months to repay the entire loan amount. The total amount payable will be Rs.1,17,397 that includes Rs.17,397 as interest toward the loan.
@@ -124,10 +125,11 @@
     <h2 id="seoContent" style="text-align: center;">Car Loan EMI Monthly Amortized Schedule</h2>
 
     <br>
+  </div>
 
-    <div>
-
-      <table id="amortizedTable" class="table table-striped">
+  <div class="container">
+    <div class="table-responsive">  
+      <table id="amortizedTable" class="table">
         <thead>
           <tr>
             <th scope="col">Month</th>
@@ -142,12 +144,14 @@
         </tbody>
       </table>
       <br>
+
+      <p style="color:#E74C3C;text-align: center;">* Note: For Android Use Only Chrome to Print Loan Statement.</p>
+      <button id="generatePDFBtn">Print Statement</button>
+      
+      <br>
       <hr>
       <br>
-
-    </div>
-
-    
+    </div> 
   </div>
 
   <div id="seoContent" class="container">

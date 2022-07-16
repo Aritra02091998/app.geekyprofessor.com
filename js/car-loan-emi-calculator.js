@@ -298,7 +298,19 @@ function calculateEMIValue(){
  
 }
 
+document.getElementById("generatePDFBtn").addEventListener("click", function () {
+  var divContents = document.getElementById("amortizedTable");
+  var a = window.open('', 'Loan Repay Statement','width=800,height=500');
 
+  a.document.write('<html>');
+  a.document.write('<body style="padding-left:10%;">');
+  a.document.write('<h1 style="color:#3a86ff">Your Payback Schedule As Followed: <br><br>')
+  a.document.write(divContents.outerHTML);
+  a.document.write('</body></html>');
+  a.focus();  
+  a.print();
+  a.document.close();
+});
 
 
 window.onload = function() {
