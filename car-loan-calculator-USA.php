@@ -150,7 +150,8 @@
       </table>
       <br>
 
-      <button id="generatePDFBtn">Print Schedule</button>
+      <p style="color:#E74C3C;text-align: center;">* Note: For Android Use Only Chrome to Print Loan Statement.</p>
+      <button id="generatePDFBtn">Print Statement</button>
       
       <br>
       <hr>
