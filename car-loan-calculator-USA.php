@@ -48,50 +48,52 @@
 
         <br><br><br>
 
-        <div class="container-fluid">
-          <div id="child1">
-            <p>
-              Monthly EMI Amount
-            </p>
+        <div id="results" class="container">
+          <div class="row">
+            
+            <div class="col col-lg-8">
+              <p>
+                Monthly EMI Amount
+              </p>
 
-            <p>
-              Principal Amount
-            </p>
+              <p>
+                Principal Amount
+              </p>
 
-            <p>
-              Total Interest
-            </p>
+              <p>
+                Total Interest
+              </p>
 
-            <p>
-              Total Amount Payable
-            </p>
+              <p>
+                Total Amount Payable
+              </p>
+            </div>
+
+            <div class="col-auto">
+              <p id="montlyEMI">
+                Amount 1
+              </p>
+
+              <p id="principalAmount">
+                Amount 2
+              </p>
+
+              <p id="totInterest">
+                Amount 3
+              </p>
+
+              <p id="totAmountPayable">
+                Amount 4
+              </p>
+            </div>
           </div>
-
-          <div id="child2">
-            <p id="montlyEMI">
-              Amount 1
-            </p>
-
-            <p id="principalAmount">
-              Amount 2
-            </p>
-
-            <p id="totInterest">
-              Amount 3
-            </p>
-
-            <p id="totAmountPayable">
-              Amount 4
-            </p>
-
-          </div>
-        </div>
         
+        </div>
       </div>
 
       <div id="section2" class="col-sm-6">
 
-        <canvas id="myChart1" width="300px" height="150px"></canvas> 
+        <canvas id="myChart1" width="300px" height="210px"></canvas> 
         <br>
         <p id="seoContent">
           For example, if you borrow $ 20,000 from the bank at 3.79% annual interest for a period of 5 years then Monthly EMI = 20,000 * 0.003158333 * (1 + 0.003158333)60 / ((1 + 0.003158333)60 - 1) = $ 366 (Approx) i.e. you will have to pay $ 366 for 60 months to repay the entire loan amount. The total amount payable will be $ 21,986
@@ -128,10 +130,11 @@
     <h2 id="seoContent" style="text-align: center;">Car Loan EMI Monthly Amortized Schedule</h2>
 
     <br>
+  </div>
 
-    <div>
-
-      <table id="amortizedTable" class="table table-striped">
+  <div class="container">
+    <div class="table-responsive">  
+      <table id="amortizedTable" class="table">
         <thead>
           <tr>
             <th scope="col">Month</th>
@@ -146,13 +149,15 @@
         </tbody>
       </table>
       <br>
+
+      <button id="generatePDFBtn">Print Schedule</button>
+      
+      <br>
       <hr>
       <br>
-
-    </div>
-
-    
+    </div> 
   </div>
+
 
   <div id="seoContent" class="container">
     <div class="row">
