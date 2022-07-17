@@ -46,41 +46,44 @@
 
         <br><br><br>
 
-        <div class="container-fluid">
-          <div id="child1">
-            <p>
-              Invested Amount
-            </p>
+        <div id="results" class="container">
+          <div class="row">
 
-            <p>
-              Est. Returns
-            </p>
+            <div class="col col-lg-8">
+              <p>
+                Invested Amount
+              </p>
 
-            <p>
-              Total Value of SIP
-            </p>
-          </div>
+              <p>
+                Est. Returns
+              </p>
 
-          <div id="child2">
-            <p id="invstAmnt">
-              Amount 1
-            </p>
+              <p>
+                Total Value of SIP
+              </p>
+            </div>
 
-            <p id="estReturns">
-              Amount 2
-            </p>
+            <div class="col-auto">
+              <p id="invstAmnt">
+                Amount 1
+              </p>
 
-            <p id="totVal">
-              Amount 3
-            </p>
+              <p id="estReturns">
+                Amount 2
+              </p>
+
+              <p id="totVal">
+                Amount 3
+              </p>
+            </div>
+
           </div>
         </div>
-        
       </div>
 
       <div id="section2" class="col-sm-6">
 
-        <canvas id="myChart1" width="300px" height="150px"></canvas>   
+        <canvas id="myChart1" width="300px" height="210px"></canvas>   
         
         <br>
         <p id="seoContent">
@@ -103,7 +106,7 @@
 
     <div id="section3">
 
-      <canvas id="myChart2" width="50px" height="25px"></canvas>   
+      <canvas id="myChart2" width="50px" height="35px"></canvas>   
 
     </div>
 

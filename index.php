@@ -66,28 +66,6 @@
                     </div>
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
-                            <a href="bold-text-generator.php">
-                                <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-bootstrap-fill"></i></div>
-                                    <h2 class="fs-4 fw-bold">Bold Text Generator Facebook, Instagram, Twitter</h2>
-                                    <p class="mb-0">An online tool Bold text generator for writing bold texts on Facebook, Instagram, Twitter & Youtube.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <a href="word-counter-online.php">
-                                <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-badge-wc-fill"></i></div>
-                                    <h2 class="fs-4 fw-bold">Online Word Counter For SEO </h2>
-                                    <p class="mb-0">Free online word counter for counting words in PDF, DOC, Blog, and Site content. Count words online in your content and see keyword density for free.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
                             <a href="png-to-jpg-online.php">
                                 <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-image"></i></div>
@@ -108,6 +86,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <a href="convert-pdf-to-jpg.php">
@@ -119,6 +98,8 @@
                             </a>
                         </div>
                     </div>
+                    
+                    
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <a href="jpg-to-pdf-online.php">
@@ -152,6 +133,31 @@
                             </a>
                         </div>
                     </div>
+
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <a href="word-counter-online.php">
+                                <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-badge-wc-fill"></i></div>
+                                    <h2 class="fs-4 fw-bold">Online Word Counter For SEO </h2>
+                                    <p class="mb-0">Free online word counter for counting words in PDF, DOC, Blog, and Site content. Count words online in your content and see keyword density for free.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <a href="bold-text-generator.php">
+                                <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-bootstrap-fill"></i></div>
+                                    <h2 class="fs-4 fw-bold">Bold Text Generator Facebook, Instagram, Twitter</h2>
+                                    <p class="mb-0">An online tool Bold text generator for writing bold texts on Facebook, Instagram, Twitter & Youtube.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
                     <div class="col-lg-6 col-xxl-4 mb-5">
                         <div class="card bg-light border-0 h-100">
                             <a href="sip-calculator.php">

@@ -1,4 +1,4 @@
-let text= "";
+    let text= "";
 
 function makeTextBold() {
 	text=document.getElementById("exampleFormControlInput1").value;
@@ -16,7 +16,7 @@ function translate (char)
     {
         diff = "𝗔".codePointAt (0) - "A".codePointAt (0);
     }
-    if (/[0-9]/.test (char))
+    else if (/[0-9]/.test (char))
     {
         diff = "𝟬".codePointAt (0) - "0".codePointAt (0);
     }
