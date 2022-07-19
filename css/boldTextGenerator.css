@@ -4,48 +4,19 @@
   font-family:  'Roboto Slab', serif;
 }
 
-.output{
+#output{
 	height: 205px;
-	width: 85%;
 	background-color: whitesmoke;
 	padding: 10px;
-	border: 1px solid grey;
+	border: 1px solid #5DADE2;
 	border-radius: 5px;
 	overflow: scroll;
 }
 
-#exampleFormControlInput1{
-	width: 85%;
-}
-.formWrapper{
-	margin-left: 15%;
-}
-.heading{
+#heading{
 	text-align: center;
 	color: #3a86ff;
 	font-weight: bolder;
-}
-
-@media (max-width: 768px) {
-	.output{
-		height: 200px;
-		width: 90%;
-		background-color: whitesmoke;
-		padding: 10px;
-		border: 1px solid grey;
-		border-radius: 5px;
-	}
-	.formWrapper{
-		margin-left: 10%;
-	}
-	#exampleFormControlInput1{
-		width: 90%;
-	}
-	.heading{
-		margin-top: 8%;
-		margin-left: 20%;
-		margin-bottom: 5%;
-	}
 }
 
 #copyBtn {
@@ -68,6 +39,14 @@
   color: ghostwhite;
 }
 
+@media (max-width: 768px) {
+	#copyBtn{
+		width: 35%;
+		padding: 9px 22px;
+		font-size: 18px;
+	}
+}
+
 #copySuccessMsg{
 	display:none;	
 	text-align: center;
@@ -86,7 +65,9 @@ h3 #seoHeader{
 
 #seoIcon{
   font-size: 110px;
-  margin: 2% 40%;
+}
 
+.justify-content-center{
+	text-align: center;
 }
 

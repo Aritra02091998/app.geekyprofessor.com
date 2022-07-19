@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <title>Compress Image Online Free - JPG, JPEG, PNG and GIF</title>
+	    <title>Bold Text Generator Facebook, Instagram, Twitter</title>
 
 	    <meta name="description" content="A simple online tool Bold text generator for writing a bold text on Facebook, Instagram, Twitter & Youtube. It converts your entered text into Unicode bold strings and copies to clipboard."/>
 
@@ -18,7 +18,7 @@
 	</head>
 
 	<body>
-		<div class="heading">
+		<div id="heading" class="container">
 			<br>
 			<h1>Bold Text Generator</h1>
 			<p id="seoContent">	
@@ -26,19 +26,30 @@
 			</p>
 			<br>
 		</div>
-		<div class="formWrapper">
-			<form>
-			  <div class="form-group">
-			    <label for="exampleFormControlInput1">Enter / Paste Your Text</label>
-			    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Hi there !! Make Me Bold" onkeyup="makeTextBold()">
-			  </div>
-			</form>
-			
-			<label for="res">Bolded Text</label>
-			<div class="output">
-				<p id="boldedText"></p>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<form>
+					  <div class="form-group">
+					    <label for="exampleFormControlInput1">Enter / Paste Your Text</label>
+					    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Hi there !! Make Me Bold" onkeyup="makeTextBold()">
+					  </div>
+					</form>
+				</div>
 			</div>
+
+			<div class="row">
+				<div class="col-sm">
+					<label for="res">Bolded Text</label>
+					<div id="output" class="container">
+						<p id="boldedText"></p>
+					</div>
+				</div>
+			</div>
+
 		</div>
+
 	    <input type="text" id="tempInputField" hidden>
 
 	    <br>
@@ -59,7 +70,12 @@
 
 		    <div class="row">
 		      <div class="col-sm">
-		        <i id="seoIcon" class="fa-solid fa-bold"></i>
+
+		      	<div class="justify-content-center">
+		        	<i id="seoIcon" class="fa-solid fa-bold"></i>
+		        </div>
+		        <br>
+		        
 		        <h3 id="seoHeader">What is Bold Text Generator ?</h3>
 
 		        <br>
@@ -82,7 +98,12 @@
 
 		    <div class="row">
 		      <div class="col-sm">
-		        <i id="seoIcon" class="fa-solid fa-users"></i>
+
+		      	<div class="justify-content-center">
+					<i id="seoIcon" class="fa-solid fa-users"></i>
+				</div>
+				<br>
+
 		        <h3 id="seoHeader">Why use Bold Text Generator for Instagram, Facebook, Twitter  ?</h3>
 
 		        <br>
@@ -109,7 +130,11 @@
 
 		    <div class="row">
 		      <div class="col-sm">
-		        <i id="seoIcon" class="fa-solid fa-person-chalkboard"></i>
+
+  			      	<div class="justify-content-center">
+				        <i id="seoIcon" class="fa-solid fa-person-chalkboard"></i>
+				    </div>
+				<br>
 		        <h3 id="seoHeader">How to use our Bold Text Generator ?</h3>
 
 		        <br>
@@ -144,7 +169,11 @@
 
 		    <div class="row">
 		      <div class="col-sm">
-		        <i id="seoIcon" class="fa-solid fa-rectangle-ad"></i>
+
+		      	<div class="justify-content-center">
+			        <i id="seoIcon" class="fa-solid fa-rectangle-ad"></i>
+			    </div>
+			    <br>
 		        <h3 id="seoHeader">Where bold text generator is used and needed ?</h3>
 
 		        <br>
@@ -178,7 +207,11 @@
 
 		    <div class="row">
 		      <div class="col-sm">
-		        <i id="seoIcon" class="fa-brands fa-facebook"></i>
+
+		      	<div class="justify-content-center">
+			        <i id="seoIcon" class="fa-brands fa-facebook"></i>
+			    </div>
+			    <br>
 		        <h3 id="seoHeader">How to Post Bold Text on Facebook ?</h3>
 
 		        <br>
